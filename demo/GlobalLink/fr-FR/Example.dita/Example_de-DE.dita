@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>Vue d'ensemble de configuration de faisceau d'ha</title>
+    <shortdesc>Gießen Sie soutenir <ph keyref="enterprise"/> Ein mis à jour Votre centre de Calculs, bauen un faisceau d'ha zusammen.
+        Suivez vos méthodes und Procédures de Compagnie gießen mettre en Anwendung Votre Faisceau du centre de calculs. </shortdesc>
+    <prolog>
+        <author>Automatisierung n'importe où</author>
+        <author type="contributor">bethany.kanui</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ha<indexterm>processus</indexterm></indexterm>
+                <indexterm>faisceau<indexterm>processus</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>La MISE À JOUR ICI LAUFEN DES faisceaux d'ha de DÉMO protègent DES Dienstleistungen aus und
+            données en cas D'un Échec de Serveur ou de service. Cer qui Klage est Une Liste de Processus
+            lié Zusatzfaisceaux. <ul id="ul_pxl_mgk_chb">
+                <li><b>Réplique de base de données</b>- Configurez La réplique synchrone entre
+                    Stellung primaire (actif) und serveurs (passifs) secondaires de MME. SQL d'emplacement à Assurer
+                    uniformité en cas D'un Échec de Noeud de niedriges de Données. </li>
+                <li><b>Temps d'arrêt</b>- Laquantité de Temps d'arrêt Dépend du Nombre de tentatives de Relancement
+                    l'administrateur bauen gießen les services Primaires de Serveur, le Nombre de zusammen
+                    les failovers Ontario permis stellen nombre d'heures und configuration de Failback gleich.</li>
+                <li><b>Failback</b>- Après Que le Serveur primaire soit retourné à La normale, Laaufladung de Travail peut
+                    soyez échoué en arrière DES serveurs secondaires Zusatzserveurs primaires. Le Primaire
+                    le Serveur devient le Serveur actif Zugabe.<p>Wiederherstellung-DES opérations Au primaire
+                        système ou Stellung après Un Rétablissement de Failover ou de Désastre sur un système secondaire
+                        ou Stellung. </p></li>
+                <li><b>Failover</b>- Silikon un DES serveurs primaires échoue, Laaufladung de Travail du échoué
+                    le Serveur décale automatiquement Au serveur Secondaire Dans le Faisceau. Ceci
+                    le Processus automatique S'appelle le Failover. Failover versichern La disponibilité fortfahren
+                    DES Anwendungen und DES données. Quand le Failover accomplit, le Serveur secondaire devient
+                    le Serveur actif. <p>Quand le Système (primaire) d'a détecte un défaut ou un échec, il
+                        transfère automatiquement La commande Au système Doppeltes (secondaire) d'a. Ceci
+                        s'applique Zusatzfaisceaux d'ha, À Où le Failover Est d'un serveur
+                    DES autres.</p></li>
+                <li><b>Dégradation gracieuse</b>- Dépendances Laissantes de Processus de faisceau à fonctionner
+                    avec élégance sur un Stellung primaire dégradé.</li>
+                <li><b>Redondance</b>- Redondance D'utilisation de Faisceaux d'ha gießen Empêcher de Seuls Punkte d'échec
+                    (SPOF), comme un serveur ou un Service échoué. Les faisceaux d'ha incluent primaire (actif)
+                    serveurs Qui services de centre serveur Ou bases de Données und serveurs (passifs) secondaires cela
+                    accueillez les kopiert repliées DES Dienstleistungen und des bases de Données. </li>
+                <li><b>Réplique</b>- Les serveurs secondaires Ontario La même Konfiguration und
+                    logiciel comme serveurs primaires, De der Ils sont une Wiedergabe (copie superflue)
+                    primaire. DES données sont repliées (copié) DES serveurs primaires Au secondaire
+                    serveurs. </li>
+            </ul></p>
+        <p>Gießen Sie soutenir l'ha und gießen le DR <ph keyref="enterprise"/>, configurez les composants choisis dedans
+            Votre centre de Calculs gießen l'ha.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Composants de Faisceau</b>- Un faisceau est DES serveurs d'un Ensemble (noeuds) qui sont reliés près
+                câbles und logiciel Konstitutionen. Dans un environnement d'ha, ces faisceaux DES serveurs sont
+                laissé être Aumême centre de Calculs Konstitution. <p>
+                    <note>Dans le Contexte des faisceaux, cependant les limites serveur, le centre serveur und le Noeud chacun
+                        ayez La-Bedeutung spécifique, Ils sont fréquemment employés l'un gießen l'autre.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Groupe de Faisceau (rôle)</b>- Groupe de services groupés qui failover
+                        Ensemble und Dépendez de L'un l'autre. </li>
+                    <li><b>Mitte serveur</b>- Lamachine de Faisceau qui accueille les Dienstleistungen.</li>
+                    <li><b>Noeud</b>- Une limite générique gießen une Maschine dans un faisceau.</li>
+                    <li><b>Noeud primaire</b>- Le Noeud actif Dans le Faisceau. Lamaschine où
+                        course D'activités de production. </li>
+                    <li><b>Noeud secondaire</b>- Lamaschine qui est indiquée comme cible dans
+                        événement d'un failover. Passives De der Le Noeud secondaire est une Wiedergabe
+                        noeud primaire. </li>
+                    <li><b>Serveur</b>- Lamachine Dans le Faisceau installé Avec L'opération de Serveur
+                        système.</li>
+                </ul></li>
+            <li><b>Commande de version de ressource (VCS ou SVN)</b></li>
+        </ul>
+        <p>Les technologies de Faisceau d'ha schreibt gardent contre trois spécifiques d'échecs:</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Échecs d'application und de service</b>- Affectation du Logiciel d'application und essentiel
+                Dienstleistungen.</li>
+            <li><b>Échecs d'emplacement dans des Organismes de Multisite</b>- causé durchschnittliches DES désastres normaux, puissance
+                pannes, Ou Pannes de Connectivité.</li>
+            <li><b>Échecs de Système und de Matériel</b>- affectant des Composants de Matériel tels que DES Unités Centrales de Traitement,
+                commandes, mémoire, Adapteurs de Réseau und Alimentations d'énergie.</li>
+        </ul>
+        <p>Cette Capacité de Manipuler l'échec permet à des Faisceaux de Répondre à deux Erfordernisse qui sont typiques
+            dans La plupart des Environnements du centre de calculs:</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Disponibilité élevée</b>- la Capacité de Fournir à DES utilisateurs l'accès à un Service
+                gießen Sie un Pourcentage Élevé de Temps und réduit les pannes non-programmées.</li>
+            <li><b>Fiabilité élevée</b>- la Capacité de Réduire Lafréquence de L'échec de système.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>

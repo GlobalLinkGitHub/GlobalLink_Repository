@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATE 10142021 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'UPDATE 05132022 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -14,8 +14,8 @@
         "actionTxt":'{0} Aktion',
         "buttonText":'',
         "buttonTooltip":'',
-        "exactlyOne":'{0} Aktion erfordert genau ein Element, das ausgew\u00E4hlt werden muss',
-        "oneOrMore":'{0} Aktion erfordert, dass ein oder mehrere Elemente ausgew\u00E4hlt werden'
+        "exactlyOne":'{0} Aktion erfordert, dass genau ein Element ausgew\u00E4hlt wird',
+        "oneOrMore":'{0} Aktion erfordert die Auswahl eines oder mehrerer Elemente'
     },
     "foundation.admin.log.Log":    {
         "bufferSize":'Buffer size:',
@@ -68,34 +68,34 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Konto',
-        "areYouSureLogout":'Sind Sie sicher, dass Sie sich abmelden m\u00F6chten?',
+        "areYouSureLogout":'M\u00F6chten Sie sich wirklich abmelden?',
         "confirmationTxt":'Best\u00E4tigung',
         "logoutTxt":'Abmelden',
         "pleaseWait":'Bitte warten...',
-        "preferencesTxt":'Einstellungen',
+        "preferencesTxt":'Pr\u00E4ferenzen',
         "switchBack":'Zur\u00FCck wechseln',
         "warning":'Warnung'
     },
     "foundation.appsettings.account.Impersonate":    {
-        "impersonate":'Sich verk\u00F6rpern',
-        "impersonateQuestionPart1":'Sie sind im Begriff, sich als der folgende Benutzer auszugeben:',
+        "impersonate":'Sich als Person ausgeben',
+        "impersonateQuestionPart1":'Sie sind dabei, sich als folgender Benutzer auszugeben:',
         "impersonateQuestionPart2":'',
         "impersonateQuestionPart3":'Sind Sie sicher, dass Sie fortfahren m\u00F6chten?',
-        "userImpersonation":'Identit\u00E4t des Benutzers',
+        "userImpersonation":'Benutzer-Imitation',
         "pleaseWait":'Benutzer werden geladen...',
-        "noImpersonatableUsers":'Keine unaussprechlichen Benutzer.'
+        "noImpersonatableUsers":'Keine unmenschlichen Benutzer.'
     },
     "foundation.appsettings.Toolbar":    {
-        "goToTxt":'Gehe zu {0}',
+        "goToTxt":'Gehen Sie zu {0}',
         "samlApplications":'Anwendungen'
     },
     "foundation.colorpicker.ColorPicker":    {
-        "title":'Farbe Picker',
-        "toCustomButton":'Zur benutzerdefinierten hinzuf\u00FCgen',
+        "title":'Farbauswahl',
+        "toCustomButton":'Zu benutzerdefiniertem hinzuf\u00FCgen',
         "okButton":'OK',
         "cancelButton":'Abbrechen',
         "defaultColorTitle":'Standard',
-        "customColorTitle":'Ma\u00DFgeschneidert'
+        "customColorTitle":'Benutzerdefiniert'
     },
     "foundation.defaultdialog.Abstract":    {
         "pleaseWait":'Bitte warten...'

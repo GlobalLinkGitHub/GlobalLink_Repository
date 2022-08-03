@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATED 05142022 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'UPDATED 06142022 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -67,7 +67,7 @@
         "system":'system'
     },
     "foundation.appsettings.account.Button":    {
-        "account":'Konto',
+        "account":'KONTO',
         "areYouSureLogout":'Sind Sie sicher, dass Sie sich abmelden m\u00F6chten?',
         "confirmationTxt":'Best\u00E4tigung',
         "logoutTxt":'Abmelden',

@@ -20,7 +20,7 @@
     "foundation.admin.log.Log": {
         "bufferSize": 'Buffer size:',
         "bytes": 'KB',
-        "closeTooltip": 'Click to close Log dialog.',
+        "closeTooltip": 'Click here to close Log dialog.',
         "closeTxt": 'Close',
         "logTxt": 'Log',
         "refresh": 'Refresh',

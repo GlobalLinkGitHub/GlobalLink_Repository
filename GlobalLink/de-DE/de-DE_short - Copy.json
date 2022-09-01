@@ -1,0 +1,120 @@
+{
+    "foundation.actions.admin.projects.EnableProjectAction":    {
+        "confirmationMsg":'You are about to disable a project. This will potentially impact all users, are you sure you want to continue?',
+        "noBtnText":'Cancel',
+        "subTitle":'Project disabled',
+        "yesBtnText":'Continue'
+    },
+    "foundation.actions.admin.users.EnableUserAction":    {
+        "noBtnText":'Cancel',
+        "subTitle":'User disabled',
+        "yesBtnText":'Continue'
+    },
+    "foundation.actions.ActionPrototype":    {
+        "actionTxt":'{0} Aktion',
+        "buttonText":'',
+        "buttonTooltip":'',
+        "exactlyOne":'{0} Aktion erfordert, dass genau ein Element ausgew\u00E4hlt wird',
+        "oneOrMore":'{0} Aktion erfordert die Auswahl eines oder mehrerer Elemente'
+    },
+    "foundation.admin.log.Log":    {
+        "bufferSize":'Buffer size:',
+        "bytes":'KB',
+        "closeTooltip":'Click here to close Log dialog.',
+        "closeTxt":'Close',
+        "logTxt":'Log',
+        "refresh":'Refresh',
+        "tailResults":'Tail results'
+    },
+    "foundation.admin.role.AbstractWindow":    {
+        "cancel":'Cancel',
+        "saveRole":'Save Role'
+    },
+    "foundation.admin.role.Add":    {
+        "buttonText":'Add',
+        "title":'Add Role'
+    },
+    "foundation.admin.role.AddDetailsPanel":    {
+        "invalidRoleName":'Role name is invalid',
+        "name":'Name',
+        "title":'Details',
+        "type":'Type'
+    },
+    "foundation.admin.role.Edit":    {
+        "buttonText":'Update',
+        "title":'Edit Role'
+    },
+    "foundation.admin.role.EditDetailsPanel":    {
+        "name":'Name',
+        "project":'project',
+        "system":'system',
+        "title":'Details',
+        "type":'Type'
+    },
+    "foundation.admin.role.PoliciesGrid":    {
+        "policybTxt":'<b>Policy</b>'
+    },
+    "foundation.admin.role.PoliciesPanel":    {
+        "copy":'Copy',
+        "title":'Policies'
+    },
+    "foundation.admin.role.RoleCombo":    {
+        "emptyText":'Please select a Role...',
+        "role":'Role'
+    },
+    "foundation.admin.role.TypeCombo":    {
+        "project":'project',
+        "system":'system'
+    },
+    "foundation.appsettings.account.Button":    {
+        "account":'Konto',
+        "areYouSureLogout":'M\u00F6chten Sie sich wirklich abmelden?',
+        "confirmationTxt":'Best\u00E4tigung',
+        "logoutTxt":'Abmelden',
+        "pleaseWait":'Bitte warten...',
+        "preferencesTxt":'Pr\u00E4ferenzen',
+        "switchBack":'Zur\u00FCck schalten',
+        "warning":'Warnung'
+    },
+    "foundation.appsettings.account.Impersonate":    {
+        "impersonate":'Sich als Person ausgeben',
+        "impersonateQuestionPart1":'Sie sind dabei, sich als folgender Benutzer auszugeben:',
+        "impersonateQuestionPart2":'',
+        "impersonateQuestionPart3":'Sind Sie sicher, dass Sie fortfahren m\u00F6chten?',
+        "userImpersonation":'Benutzer-Imitation',
+        "pleaseWait":'Benutzer werden geladen...',
+        "noImpersonatableUsers":'Keine unmenschlichen Benutzer.'
+    },
+    "foundation.appsettings.Toolbar":    {
+        "goToTxt":'Gehen Sie zu {0}',
+        "samlApplications":'Anwendungen'
+    },
+    "foundation.colorpicker.ColorPicker":    {
+        "title":'Farbauswahl',
+        "toCustomButton":'Zu benutzerdefiniertem hinzuf\u00FCgen',
+        "okButton":'OK',
+        "cancelButton":'Abbrechen',
+        "defaultColorTitle":'Standard',
+        "customColorTitle":'Benutzerdefiniert'
+    },
+    "foundation.defaultdialog.Abstract":    {
+        "pleaseWait":'Bitte warten...'
+    },
+    "foundation.defaultdialog.TabWindow":    {
+        "apply":'Anwenden',
+        "cancel":'Abbrechen',
+        "invalidMark":'*',
+        "ok":'OK',
+        "pleaseWait":'Bitte warten...'
+    },
+    "foundation.grid.Panel":    {
+        "emptyText":'Keine Ergebnisse'
+    },
+    "foundation.filters.summary.fullfilter.item.Combo":    {
+        "availableValues":'Verf\u00FCgbare Werte',
+        "labelAndValueCell":'{0} {1}'
+    },
+    "foundation.filters.summary.fullfilter.item.Text":    {
+        "allText":'Alle'
+    }
+}

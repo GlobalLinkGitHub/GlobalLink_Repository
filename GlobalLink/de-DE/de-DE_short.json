@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATED 06142022 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'UPDATED 01092022 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -14,8 +14,8 @@
         "actionTxt":'{0} Aktion',
         "buttonText":'',
         "buttonTooltip":'',
-        "exactlyOne":'{0} Aktion erfordert, dass genau ein Element ausgew\u00E4hlt wird',
-        "oneOrMore":'{0} Aktion erfordert die Auswahl eines oder mehrerer Elemente'
+        "exactlyOne":'{0} Aktion erfordert genau ein Element, um ausgewählt zu werden',
+        "oneOrMore":'{0} Aktion erfordert, dass ein oder mehrere Elemente ausgewählt werden'
     },
     "foundation.admin.log.Log":    {
         "bufferSize":'Buffer size:',
@@ -67,23 +67,23 @@
         "system":'system'
     },
     "foundation.appsettings.account.Button":    {
-        "account":'KONTO',
-        "areYouSureLogout":'Sind Sie sicher, dass Sie sich abmelden m\u00F6chten?',
-        "confirmationTxt":'Best\u00E4tigung',
+        "account":'Konto',
+        "areYouSureLogout":'Sind Sie sicher, dass Sie sich abmelden möchten?',
+        "confirmationTxt":'Bestätigung',
         "logoutTxt":'Abmelden',
         "pleaseWait":'Bitte warten...',
-        "preferencesTxt":'Pr\u00E4ferenzen',
-        "switchBack":'Zur\u00FCck schalten',
+        "preferencesTxt":'Präferenzen',
+        "switchBack":'Zurückschalten',
         "warning":'Warnung'
     },
     "foundation.appsettings.account.Impersonate":    {
         "impersonate":'Sich als Person ausgeben',
         "impersonateQuestionPart1":'Sie sind dabei, sich als folgender Benutzer auszugeben:',
         "impersonateQuestionPart2":'',
-        "impersonateQuestionPart3":'Sind Sie sicher, dass Sie fortfahren m\u00F6chten?',
-        "userImpersonation":'Benutzer-Imitation',
+        "impersonateQuestionPart3":'Möchten Sie wirklich fortfahren?',
+        "userImpersonation":'Identität des Benutzers',
         "pleaseWait":'Benutzer werden geladen...',
-        "noImpersonatableUsers":'Keine unmenschlichen Benutzer.'
+        "noImpersonatableUsers":'Keine imitierbaren Benutzer.'
     },
     "foundation.appsettings.Toolbar":    {
         "goToTxt":'Gehen Sie zu {0}',
@@ -91,7 +91,7 @@
     },
     "foundation.colorpicker.ColorPicker":    {
         "title":'Farbauswahl',
-        "toCustomButton":'Zu benutzerdefiniertem hinzuf\u00FCgen',
+        "toCustomButton":'Zu benutzerdefiniertem hinzufügen',
         "okButton":'OK',
         "cancelButton":'Abbrechen',
         "defaultColorTitle":'Standard',
@@ -111,7 +111,7 @@
         "emptyText":'Keine Ergebnisse'
     },
     "foundation.filters.summary.fullfilter.item.Combo":    {
-        "availableValues":'Verf\u00FCgbare Werte',
+        "availableValues":'Verfügbare Werte',
         "labelAndValueCell":'{0} {1}'
     },
     "foundation.filters.summary.fullfilter.item.Text":    {

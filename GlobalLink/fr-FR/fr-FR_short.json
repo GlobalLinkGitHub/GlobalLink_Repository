@@ -11,7 +11,7 @@
         "yesBtnText":'Continue'
     },
     "foundation.actions.ActionPrototype":    {
-        "actionTxt":'{0} NOUVELLE action',
+        "actionTxt":'{0} C’EST UNE NOUVELLE action',
         "buttonText":'',
         "buttonTooltip":'',
         "exactlyOne":'{0} cette action nécessite la sélection d’exactement un objet',

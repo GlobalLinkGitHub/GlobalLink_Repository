@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATED 12132022 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'UPDATED BY IBA_010523 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -11,7 +11,7 @@
         "yesBtnText":'Continue'
     },
     "foundation.actions.ActionPrototype":    {
-        "actionTxt":'{0} Aktion',
+        "actionTxt":'{0} NEUE Aktion',
         "buttonText":'',
         "buttonTooltip":'',
         "exactlyOne":'{0} Aktion erfordert genau ein Element, um ausgewählt zu werden',
@@ -83,7 +83,7 @@
         "impersonateQuestionPart3":'Möchten Sie wirklich fortfahren?',
         "userImpersonation":'Identität des Benutzers',
         "pleaseWait":'Benutzer werden geladen...',
-        "noImpersonatableUsers":'Keine imitierbaren Benutzer.'
+        "noImpersonatableUsers":'Keine sich ausdrückenden Benutzer.'
     },
     "foundation.appsettings.Toolbar":    {
         "goToTxt":'Gehen Sie zu {0}',

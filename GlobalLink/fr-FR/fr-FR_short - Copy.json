@@ -14,8 +14,8 @@
         "actionTxt":'{0} Action',
         "buttonText":'',
         "buttonTooltip":'',
-        "exactlyOne":'{0} cette action n\u00E9cessite la s\u00E9lection d\u2019exactement un objet',
-        "oneOrMore":'{0} cette action n\u00E9cessite la s\u00E9lection d\u2019au moins un objet'
+        "exactlyOne":'{0} cette action nécessite la sélection d’exactement un objet',
+        "oneOrMore":'{0} cette action nécessite la sélection d’au moins un objet'
     },
     "foundation.admin.log.Log":    {
         "bufferSize":'Buffer size:',
@@ -68,22 +68,22 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Compte',
-        "areYouSureLogout":'\u00CAtes-vous s\u00FBr de vouloir vous d\u00E9connecter CHANGE\u00A0?',
+        "areYouSureLogout":'Êtes-vous sûr de vouloir vous déconnecter ?',
         "confirmationTxt":'Confirmation',
-        "logoutTxt":'D\u00E9connexion',
+        "logoutTxt":'Déconnexion',
         "pleaseWait":'Veuillez attendre...',
-        "preferencesTxt":'Pr\u00E9f\u00E9rences',
+        "preferencesTxt":'Préférences',
         "switchBack":'Retour',
         "warning":'Attention'
     },
     "foundation.appsettings.account.Impersonate":    {
         "impersonate":'Personnifier',
-        "impersonateQuestionPart1":'Vous vous appr\u00EAtez \u00E0 personnifier l\u2019utilisateur :',
+        "impersonateQuestionPart1":'Vous vous apprêtez à personnifier l’utilisateur :',
         "impersonateQuestionPart2":'',
-        "impersonateQuestionPart3":'Etes-vous s\u00FBr de vouloir continuer ?',
+        "impersonateQuestionPart3":'Etes-vous sûr de vouloir continuer ?',
         "userImpersonation":'Personnification',
         "pleaseWait":'Chargement des utilisateurs...',
-        "noImpersonatableUsers":'Aucun utilisateur \u00E0 personnifier'
+        "noImpersonatableUsers":'Aucun utilisateur à personnifier'
     },
     "foundation.appsettings.Toolbar":    {
         "goToTxt":'Aller vers {0}',
@@ -94,7 +94,7 @@
         "toCustomButton":'Ajouter au customisations',
         "okButton":'OK',
         "cancelButton":'Annulation',
-        "defaultColorTitle":'Par d\u00E9faut',
+        "defaultColorTitle":'Par défaut',
         "customColorTitle":'Customisation'
     },
     "foundation.defaultdialog.Abstract":    {
@@ -108,7 +108,7 @@
         "pleaseWait":'Veuillez attendre...'
     },
     "foundation.grid.Panel":    {
-        "emptyText":'Pas de r\u00E9sultat'
+        "emptyText":'Pas de résultat'
     },
     "foundation.filters.summary.fullfilter.item.Combo":    {
         "availableValues":'Valeurs disponibles',

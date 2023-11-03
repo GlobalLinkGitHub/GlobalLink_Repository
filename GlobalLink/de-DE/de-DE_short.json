@@ -14,7 +14,7 @@
         "actionTxt":'{0} DIES IST EINE NEUE Aktion',
         "buttonText":'',
         "buttonTooltip":'',
-        "exactlyOne":'{0} Aktion erfordert genau ein Element, um ausgewählt zu werden',
+        "exactlyOne":'{0} Für die Aktion muss genau ein Element ausgewählt werden',
         "oneOrMore":'{0} Aktion erfordert, dass ein oder mehrere Elemente ausgewählt werden'
     },
     "foundation.admin.log.Log":    {
@@ -68,7 +68,7 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Konto',
-        "areYouSureLogout":'Sind Sie sicher, dass Sie sich abmelden möchten?',
+        "areYouSureLogout":'Möchten Sie sich wirklich abmelden?',
         "confirmationTxt":'Bestätigung',
         "logoutTxt":'Abmelden',
         "pleaseWait":'Bitte warten...',
@@ -83,7 +83,7 @@
         "impersonateQuestionPart3":'Möchten Sie wirklich fortfahren?',
         "userImpersonation":'Identität des Benutzers',
         "pleaseWait":'Benutzer werden geladen...',
-        "noImpersonatableUsers":'Keine sich ausdrückenden Benutzer.'
+        "noImpersonatableUsers":'Keine imitierbaren Benutzer.'
     },
     "foundation.appsettings.Toolbar":    {
         "goToTxt":'Gehen Sie zu {0}',

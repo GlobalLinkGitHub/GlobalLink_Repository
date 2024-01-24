@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATED BY IBA_010523 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'UPDATED BY IBA_012424 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -68,7 +68,7 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Compte',
-        "areYouSureLogout":'Êtes-vous sûr de vouloir vous déconnecter ?',
+        "areYouSureLogout":'Êtes-vous sûr de vouloir vous déconnecter  ?',
         "confirmationTxt":'Confirmation',
         "logoutTxt":'Déconnexion',
         "pleaseWait":'Veuillez attendre...',

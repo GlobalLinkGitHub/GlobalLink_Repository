@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction": {
-        "confirmationMsg": 'UPDATED BY IBA_012424 You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg": 'UPDATE January 25 2024. You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText": 'Cancel',
         "subTitle": 'Project disabled',
         "yesBtnText": 'Continue'

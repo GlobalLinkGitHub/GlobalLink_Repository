@@ -14,7 +14,7 @@
         "actionTxt":'{0} Aktion',
         "buttonText":'',
         "buttonTooltip":'',
-        "exactlyOne":'{0} Für die Aktion muss genau ein Element ausgewählt werden',
+        "exactlyOne":'{0} Aktion erfordert genau ein Element, um ausgewählt zu werden',
         "oneOrMore":'{0} Aktion erfordert, dass ein oder mehrere Elemente ausgewählt werden'
     },
     "foundation.admin.log.Log":    {
@@ -68,7 +68,7 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Konto',
-        "areYouSureLogout":'Möchten Sie sich wirklich abmelden?',
+        "areYouSureLogout":'Sind Sie sicher, dass Sie sich abmelden möchten?',
         "confirmationTxt":'Bestätigung',
         "logoutTxt":'Abmelden',
         "pleaseWait":'Bitte warten...',

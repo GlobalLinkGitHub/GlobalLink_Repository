@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATE January 25 2024. You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -11,7 +11,7 @@
         "yesBtnText":'Continue'
     },
     "foundation.actions.ActionPrototype":    {
-        "actionTxt":'{0} C’EST UNE NOUVELLE action',
+        "actionTxt":'{0} Action',
         "buttonText":'',
         "buttonTooltip":'',
         "exactlyOne":'{0} cette action nécessite la sélection d’exactement un objet',
@@ -68,7 +68,7 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Compte',
-        "areYouSureLogout":'Êtes-vous sûr de vouloir vous déconnecter  ?',
+        "areYouSureLogout":'Etes-vous sûr de vouloir vous déconnecter ?',
         "confirmationTxt":'Confirmation',
         "logoutTxt":'Déconnexion',
         "pleaseWait":'Veuillez attendre...',

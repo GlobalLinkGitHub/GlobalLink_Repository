@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction": {
-        "confirmationMsg": 'UPDATE January 25 2024. You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg": 'You are about to disable a project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText": 'Cancel',
         "subTitle": 'Project disabled',
         "yesBtnText": 'Continue'
@@ -11,7 +11,7 @@
         "yesBtnText": 'Continue'
     },
     "foundation.actions.ActionPrototype": {
-        "actionTxt": '{0} THIS IS A NEW Action',
+        "actionTxt": '{0} Action',
         "buttonText": '',
         "buttonTooltip": '',
         "exactlyOne": '{0} action requires exactly one item to be selected',

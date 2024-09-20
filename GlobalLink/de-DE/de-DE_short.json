@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction":    {
-        "confirmationMsg":'UPDATE January 25 2024. You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg":'You are about to disable the project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText":'Cancel',
         "subTitle":'Project disabled',
         "yesBtnText":'Continue'
@@ -11,7 +11,7 @@
         "yesBtnText":'Continue'
     },
     "foundation.actions.ActionPrototype":    {
-        "actionTxt":'{0} DIES IST EINE NEUE Aktion',
+        "actionTxt":'{0} Aktion',
         "buttonText":'',
         "buttonTooltip":'',
         "exactlyOne":'{0} Aktion erfordert genau ein Element, um ausgewählt zu werden',
@@ -77,10 +77,10 @@
         "warning":'Warnung'
     },
     "foundation.appsettings.account.Impersonate":    {
-        "impersonate":'Sich als Person ausgeben',
+        "impersonate":'Verkörpern Sie sich',
         "impersonateQuestionPart1":'Sie sind dabei, sich als folgender Benutzer auszugeben:',
         "impersonateQuestionPart2":'',
-        "impersonateQuestionPart3":'Möchten Sie wirklich fortfahren?',
+        "impersonateQuestionPart3":'Sind Sie sicher, dass Sie fortfahren möchten?',
         "userImpersonation":'Identität des Benutzers',
         "pleaseWait":'Benutzer werden geladen...',
         "noImpersonatableUsers":'Keine imitierbaren Benutzer.'

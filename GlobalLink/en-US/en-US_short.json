@@ -1,6 +1,6 @@
 {
     "foundation.actions.admin.projects.EnableProjectAction": {
-        "confirmationMsg": 'You are about to disable a project. This will potentially impact all users, are you sure you want to continue?',
+        "confirmationMsg": 'You are about to disable this project. This will potentially impact all users, are you sure you want to continue?',
         "noBtnText": 'Cancel',
         "subTitle": 'Project disabled',
         "yesBtnText": 'Continue'

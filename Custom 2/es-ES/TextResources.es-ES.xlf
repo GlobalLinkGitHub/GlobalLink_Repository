@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" xmlns:xsi="urn:oasis:names:tc:xliff:document:1.1 xliff-core-1.1Platform.xsd" version="1.1">
 	<file datatype="xml" original="PresentationToolkitTexts.xml" source-language="en-US" target-language="es-ES">
 		<body>
 			<trans-unit id="Username" translate="yes">
-				<source>Username UPDATE 08092021</source><target>Nombre de usuario ACTUALIZACIÓN 08092021</target>
+				<source>Username UPDATE 08092021</source><target>ACTUALIZACIÓN del nombre de usuario 08092021</target>
 			</trans-unit>
 			<trans-unit id="Password" translate="yes">
 				<source>Password</source><target>Contraseña</target></trans-unit>
@@ -27,14 +27,14 @@
 				<source>The page you are looking for is temporarily unavailable.</source><target>La página que está buscando no está disponible temporalmente.</target>
 			</trans-unit>
 			<trans-unit id="InternalServerError" translate="yes">
-				<source>There is a problem with the system, please contact your system administrator.</source><target>Hay un problema con el sistema, póngase en contacto con el administrador del sistema.</target>
+				<source>There is a problem with the system, please contact your system administrator.</source><target>Hay un problema con el sistema; póngase en contacto con el administrador del sistema.</target>
 			</trans-unit>
 			<trans-unit id="InvalidCredentials" translate="yes">
 				<source>Invalid credentials</source><target>Credenciales no válidas</target>
 				<note>Means: Not valid credentials</note>
 			</trans-unit>
 			<trans-unit id="LoggedOff" translate="yes">
-				<source>You have been logged off from IntelliSpace Cardiovascular.</source><target>Se ha cerrado su sesión en IntelliSpace Cardiovascular.</target>
+				<source>You have been logged off from IntelliSpace Cardiovascular.</source><target>Se ha cerrado la sesión de IntelliSpace Cardiovascular.</target>
 			</trans-unit>
 			<trans-unit id="ContinueAtEmr" translate="yes">
 				<source>You can continue your work from the EMR.</source><target>Puede continuar su trabajo desde el EMR.</target>

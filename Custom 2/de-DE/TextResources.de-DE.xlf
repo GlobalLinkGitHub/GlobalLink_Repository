@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" xmlns:xsi="urn:oasis:names:tc:xliff:document:1.1 xliff-core-1.1Platform.xsd" version="1.1">
 	<file datatype="xml" original="PresentationToolkitTexts.xml" source-language="en-US" target-language="de-DE">
 		<body>
 			<trans-unit id="Username" translate="yes">
-				<source>Username UPDATE 08092021</source><target>Benutzername UPDATE 08092021</target>
+				<source>Username UPDATE 08092021</source><target>Benutzername AKTUALISIERUNG 08092021</target>
 			</trans-unit>
 			<trans-unit id="Password" translate="yes">
 				<source>Password</source><target>Kennwort</target></trans-unit>
@@ -27,7 +27,7 @@
 				<source>The page you are looking for is temporarily unavailable.</source><target>Die Seite, nach der Sie suchen, ist vorübergehend nicht verfügbar.</target>
 			</trans-unit>
 			<trans-unit id="InternalServerError" translate="yes">
-				<source>There is a problem with the system, please contact your system administrator.</source><target>Es liegt ein Problem mit dem System vor. Bitte wenden Sie sich an Ihren Systemadministrator.</target>
+				<source>There is a problem with the system, please contact your system administrator.</source><target>Es gibt ein Problem mit dem System. Wenden Sie sich an Ihren Systemadministrator.</target>
 			</trans-unit>
 			<trans-unit id="InvalidCredentials" translate="yes">
 				<source>Invalid credentials</source><target>Ungültige Anmeldedaten</target>

@@ -68,7 +68,7 @@
     },
     "foundation.appsettings.account.Button":    {
         "account":'Compte',
-        "areYouSureLogout":'Êtes-vous sûr de vouloir vous déconnecter ?',
+        "areYouSureLogout":'Êtes-vous sûr de vouloir vous déconnecter  ?',
         "confirmationTxt":'Confirmation',
         "logoutTxt":'Déconnexion',
         "pleaseWait":'Veuillez attendre...',

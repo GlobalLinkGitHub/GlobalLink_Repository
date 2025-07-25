@@ -1,0 +1,120 @@
+{
+    "foundation.actions.admin.projects.EnableProjectAction": {
+        "confirmationMsg": 'You are about to disable a project. This will potentially impact all users, are you sure you want to continue?',
+        "noBtnText": 'Cancel',
+        "subTitle": 'Project disabled',
+        "yesBtnText": 'Continue'
+    },
+    "foundation.actions.admin.users.EnableUserAction": {
+        "noBtnText": 'Cancel',
+        "subTitle": 'User disabled',
+        "yesBtnText": 'Continue'
+    },
+    "foundation.actions.ActionPrototype": {
+        "actionTxt": '{0} Action',
+        "buttonText": '',
+        "buttonTooltip": '',
+        "exactlyOne": '{0} action requires exactly one item to be selected',
+        "oneOrMore": '{0} action requires one or more items to be selected'
+    },
+    "foundation.admin.log.Log": {
+        "bufferSize": 'Buffer size:',
+        "bytes": 'KB',
+        "closeTooltip": 'Click to close Log dialog.',
+        "closeTxt": 'Close',
+        "logTxt": 'Log',
+        "refresh": 'Refresh',
+        "tailResults": 'Tail results'
+    },
+    "foundation.admin.role.AbstractWindow": {
+        "cancel": 'Cancel',
+        "saveRole": 'Save Role'
+    },
+    "foundation.admin.role.Add": {
+        "buttonText": 'Add',
+        "title": 'Add Role'
+    },
+    "foundation.admin.role.AddDetailsPanel": {
+        "invalidRoleName": 'Role name is invalid',
+        "name": 'Name',
+        "title": 'Details',
+        "type": 'Type'
+    },
+    "foundation.admin.role.Edit": {
+        "buttonText": 'Update',
+        "title": 'Edit Role'
+    },
+    "foundation.admin.role.EditDetailsPanel": {
+        "name": 'Name',
+        "project": 'project',
+        "system": 'system',
+        "title": 'Details',
+        "type": 'Type'
+    },
+    "foundation.admin.role.PoliciesGrid": {
+        "policybTxt": '<b>Policy</b>'
+    },
+    "foundation.admin.role.PoliciesPanel": {
+        "copy": 'Copy',
+        "title": 'Policies'
+    },
+    "foundation.admin.role.RoleCombo": {
+        "emptyText": 'Please select a Role...',
+        "role": 'Role'
+    },
+    "foundation.admin.role.TypeCombo": {
+        "project": 'project',
+        "system": 'system'
+    },
+    "foundation.appsettings.account.Button": {
+        "account": 'Account',
+        "areYouSureLogout": 'Are you sure you wish to log out?',
+        "confirmationTxt": 'Confirmation',
+        "logoutTxt": 'Logout',
+        "pleaseWait": 'Please wait...',
+        "preferencesTxt": 'Preferences',
+        "switchBack": 'Switch Back',
+        "warning": 'Warning'
+    },
+    "foundation.appsettings.account.Impersonate": {
+        "impersonate": 'Impersonate',
+        "impersonateQuestionPart1": 'You are about to impersonate the following user:',
+        "impersonateQuestionPart2": '',
+        "impersonateQuestionPart3": 'Are you sure you want to proceed?',
+        "userImpersonation": 'User Impersonation',
+        "pleaseWait": 'Loading users...',
+        "noImpersonatableUsers": 'No impersonatable users.'
+    },
+    "foundation.appsettings.Toolbar": {
+        "goToTxt": 'Go to {0}',
+        "samlApplications": 'Applications'
+    },
+    "foundation.colorpicker.ColorPicker": {
+        "title": 'Color Picker',
+        "toCustomButton": 'Add to custom',
+        "okButton": 'OK',
+        "cancelButton": 'Cancel',
+        "defaultColorTitle": 'Default',
+        "customColorTitle": 'Custom'
+    },
+    "foundation.defaultdialog.Abstract": {
+        "pleaseWait": 'Please wait...'
+    },
+    "foundation.defaultdialog.TabWindow": {
+        "apply": 'Apply',
+        "cancel": 'Cancel',
+        "invalidMark": '*',
+        "ok": 'OK',
+        "pleaseWait": 'Please wait...'
+    },
+    "foundation.grid.Panel": {
+        "emptyText": 'No Results'
+    },
+    "foundation.filters.summary.fullfilter.item.Combo": {
+        "availableValues": 'Available Values',
+        "labelAndValueCell": '{0} {1}'
+    },
+    "foundation.filters.summary.fullfilter.item.Text": {
+        "allText": 'All'
+    }
+}

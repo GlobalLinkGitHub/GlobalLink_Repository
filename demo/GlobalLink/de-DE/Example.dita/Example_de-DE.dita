@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>Häã Blöóck-Köónfîïgüûräãtîïöón übêèrblîïck</title>
+    <shortdesc>Síích stützèën <ph keyref="enterprise"/> Åktúýåålïìsïìéértéé Íhr Rééchéénzééntrúým, bååúýt ééïìnéén håå Blóóck zúýsååmméén. Fôölgêèn Sìíêè Íhrêèn Fìírmáãmêèthôödêèn üûnd -vêèrfáãhrêèn für dáãs Éìínführêèn Íhrêès Rêèchêènzêèntrüûmblôöckêès. </shortdesc>
+    <prolog>
+        <author>Âüùtôòmáätîïsîïëërüùng übëëráäll</author>
+        <author type="contributor">bëêthàäny.kàänùýíí</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Hâå<indexterm>Prôözêèssêè</indexterm></indexterm>
+                <indexterm>Blöõck<indexterm>Pröózêèssêè</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>ÛPDÀTË HÌËR FÜR DËMÔ-hàà Blöckèê schützèên Dîîèênstlèêîîstúýngèên úýnd Dààtèên îîm Fààllèê èêîînèês Bèêdîîèênèêr- öòdèêr Sèêrvîîcèê-Àúýsfààlls. Dâäs fôölgèëndèë ïïst èëïïnèë Lïïstèë vôön Prôözèëssèën vèërbûùndèën mïït Blöckèën. <ul id="ul_pxl_mgk_chb">
+                <li><b>Dæätéênbæänkréêpròödùýktïìòön</b>- Bäáüýëên Sîíëê synchröònëê Rëêpröòdüýktîíöòn zwîíschëên züýsäámmëên Prîímäräáüýfstëêllüýngsöòrt (äáktîív) üýnd Sëêküýndäräáüýfstëêllüýngsöòrt (päássîívëê) sîíchëêrzüýstëêllëên Bëêdîíëênëêr DÊS MS SQL übëêrëêîínstîímmüýng îím Fäállëê ëêîínëês Däátëênbäánknüýllpüýnktäáüýsfäálls. </li>
+                <li><b>Stîìllstãåndszëéîìt</b>- Dìîéë Méëngéë déër Stìîllstãándszéëìît hängt vóõn déër Zãáhl Wìîéëdéërãánlãáýýf Véërsýýchéën ãáb déër Véërwãáltéër bãáýýt für dìîéë Prìîmärbéëdìîéënéërdìîéënstléëìîstýýngéën, dìîéë Zãáhl vóõn zýýsãámméën fãáìîlóõvéërs lìîéëßéën próõ Zãáhl vóõn Stýýndéën ýýnd dìîéë fãáìîlbãáck Kóõnfìîgýýrãátìîóõn.</li>
+                <li><b>Fååïïlbååck</b>- Næãchdéêm déêr Príïmärbéêdíïéênéêr zúúm Nòõrmæãl zúúrückgéêbræãcht íïst, kæãnn díïéê Ârbéêíïtsbéêlæãstúúng séêíïéên zúúrück vòõn déên Séêkúúndärbéêdíïéênéêrn zúú déên Príïmärbéêdíïéênéêrn æãúúsgéêfæãlléên Síïéê. Däâs Príìmär Bèëdíìèënèër wíìrd dèër äâktíìvèë Bèëdíìèënèër wíìèëdèër.<p>Wîìêèdêèrhêèrstêèllûýng vöòn Bêètrîìêèbêèn zûým Prîìmär Systêèm öòdêèr Æûýfstêèllûýngsöòrt näách êèîìnêèr fäáîìlöòvêèr öòdêèr Ûnfäállwîìêèdêèräáûýfnäáhmêè äáûýf êèîìnêèm Sêèkûýndärsystêèm öòdêèr Æûýfstêèllûýngsöòrt. </p></li>
+                <li><b>Fæáíïlóóvëér</b>- Wëënn ëëíïnëër dëër Príïmärbëëdíïëënëër åàúùsfällt, díïëë Ârbëëíïtsbëëlåàstúùng vóón vëërlåàssëën Bëëdíïëënëër vëërschíïëëbt åàúùtóómåàtíïsch síïch åàúùf dëën Sëëkúùndärbëëdíïëënëër íïm Blóóck. Díïéèséès æâûûtöömæâtíïschéèr Pröözéèß wíïrd fæâíïlöövéèr géènæânnt. Fâáïîlöôvëér stëéllt ýünýüntëérbröôchëénëé Vëérwëéndbâárkëéïît sïîchëér vöôn dëén Änwëéndýüngëén ýünd vöôn dëén Dâátëén. Wèénn fááîílõôvèér dúûrchführt, wîírd dèér Sèékúûndärbèédîíèénèér dèér ááktîívèé Bèédîíèénèér. <p>Wéènn áæ (Prìímär) Systéèm éèìínéè Störùùng ôódéèr éèìínéèn Åùùsfáæll éèrmìíttéèlt, éès brìíngt áæùùtôómáætìísch Stéèùùéèrùùng áæùùf áæ (Séèkùùndär) dôóppéèltéès Systéèm. Dííèèsèès näåch tríífft äåûúf häå Blöckèè zûú, dèènèèn fäåíílóôvèèr vóôn èèíínèèm Bèèdííèènèèr ííst äåndèèrèè.</p></li>
+                <li><b>Köóntröóllîíéértéér Lééîístûûngsrückgãáng</b>- Gêéwährêéndêé Blòöckpròözêéßâàbhängïïgkêéïïtêén zúým zúý fúýnktïïòönïïêérêén würdêévòöll âàúýf êéïïnêém vêérmïïndêértêén Prïïmärâàúýfstêéllúýngsòört.</li>
+                <li><b>Rêèdûündåànz</b>- Hãà Blòòck-Géêbrãàúüchréêdúündãànz, zúüm déêr éêììnzéêlnéên Púünktéê déês Ãúüsfãàlls zúü véêrhììndéêrn (SPÖF), wììéê éêììn véêrlãàsséênéêr Béêdììéênéêr òòdéêr éêììn Séêrvììcéê. Háá Blöckêë schlîíêëßêën Prîímär mîít êëîín (ááktîív) Bêëdîíêënêër dîíêë Wîírt Dîíêënstlêëîístûüngêën óõdêër Dáátêënbáánkêën ûünd Sêëkûündär (páássîívêë) Bêëdîíêënêër dáás bêëwîírtêën Sîíêë wîíêëdêërhóõltêë Kóõpîíêën dêër Dîíêënstlêëîístûüngêën ûünd dêër Dáátêënbáánkêën. </li>
+                <li><b>Rèëprõödûûktïíõön</b>- Dïîéê Séêkûùndärbéêdïîéênéêr hææbéên dïîéê gléêïîchéê Kôónfïîgûùræætïîôón ûùnd Sôóftwææréê ææls dïîéê Prïîmärbéêdïîéênéêr, sïînd sïîéê éêïîn Dûùplïîkææt (übéêrflüssïîgéê Kôópïîéê) vôón hææûùptsächlïîch. Däátêèn wêèrdêèn (kôõpïìêèrt) vôõn dêèn Prïìmärbêèdïìêènêèrn zýüm Sêèkýündär wïìêèdêèrhôõlt Bêèdïìêènêèr. </li>
+            </ul></p>
+        <p>Hãä ùùnd Dr für stützëén <ph keyref="enterprise"/>, bãâúüéën Síìéë díìéë vóórgéëwähltéën Béëstãândtéëíìléë íìnnéën zúüsãâmméën Ïhr Réëchéënzéëntrúüm für hãâ.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Blôôckbëèstæândtëèíïlëè</b>- Ëíïn Blöóck íïst Béëdíïéënéër éëíïnéës Sãætzéës (Nüûllpüûnktéë) díïéë vöórbéëíï ãængéëschlöósséën wéërdéën körpéërlíïchéë Kãæbéël üûnd Söóftwãæréë. Ín èêïìnèêm hæà Klïìmæà sïìnd dïìèêsèê Blöckèê dèêr Bèêdïìèênèêr ïìm glèêïìchèên körpèêrlïìchèên Rèêchèênzèêntrùùm sèêïìn dürfèên. <p>
+                    <note>Ím Kòóntëéxt dëér Blöckëé, zwáár îîn dëén Bëézëéîîchnüýngëén Bëédîîëénëér, îîm Wîîrt üýnd îîm Nüýllpüýnkt jëédëér háábëén Sîîëé spëézîîfîîschëé Bëédëéüýtüýng, sîîëé wëérdëén vëérwëéndëét häüýfîîg ááüýstááüýschbáár.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Blòõckgrûûppêé (Ròõllêé)</b>- Grüûppëê gëêsãâmmëêltëê Dîìëênstlëêîìstüûngëên dîìëê fãâîìlôôvëêr züûsãâmmëên üûnd sëêîìëên Sîìëê vôôn ëêîìnãândëêr ãâbhängîìg. </li>
+                    <li><b>Wîîrt</b>- Dïíèê Blõõckmäàschïínèê, dïíèê dïíèê Dïíèênstlèêïístüüngèên bèêwïírtèêt.</li>
+                    <li><b>Núúllpúúnkt</b>- Èïìnêê gêênêêrïìschêê Bêêzêêïìchnûùng für êêïìnêê Mäáschïìnêê ïìn êêïìnêêm Blöòck.</li>
+                    <li><b>Príïmärnýýllpýýnkt</b>- Dêêr àäktììvêê Nüùllpüùnkt ììm Blòöck. Díìêë Mãäschíìnêë wõó Prõódúüktíìõón Tätíìgkêëíìtêën Dúürchlãäúüf. </li>
+                    <li><b>Séékúúndärnúúllpúúnkt</b>- Dïìéê Mäæschïìnéê, dïìéê äæls däæs Zïìéêl ïìn géêkéênnzéêïìchnéêt wïìrd Fäæll éêïìnéês fäæïìlõòvéêr. Dèèr Sèèkûündärnûüllpûünkt ïîst èèïîn påâssïîvèès Dûüplïîkåât võôn Prïîmärnûüllpûünkt. </li>
+                    <li><b>Béëdìîéënéër</b>- Dììéê Mæãschììnéê ììm Blôôck æãngéêbræãcht mììt déêm Béêdììéênéêrfýûnktììôônììéêréên Systéêm.</li>
+                </ul></li>
+            <li><b>Hîílfsmîíttèëlvèërsîíõön Stèëúúèërúúng (VCS õödèër SVN)</b></li>
+        </ul>
+        <p>Hàá Blõöcktëêchnõölõögííëên schützëên gëêgëên drëêíí spëêzíífííschëê Ártëên Áýýsfällëê:</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Ånwêêndüùng üùnd Sêêrvìícêê-Åüùsfällêê</b>- Béêéêììnflýùsséên võón Ånwéêndéêrsõóftwàâréê ýùnd wéêséêntlììch Dììéênstléêììstýùngéên.</li>
+            <li><b>Æüùfstêëllüùngsòõrtãàüùsfällêë íîn dêën müùltíîsíîtêë Õrgãàníîsãàtíîòõnêën</b>- vêêrúýrsãàcht dúýrch Nãàtúýrkãàtãàströöphêên, Ènêêrgíîêê Störúýngêên öödêêr Köönnêêktíîvíîtätstörúýngêên.</li>
+            <li><b>Systèêm ýýnd Klèêììntèêììlàãýýsfällèê</b>- Håârdwåârèêèêïìnhèêïìtèên wïìèê CPÙs bèêèêïìnflúùssèênd, Ãntrïìèêbèê, Gèêdächtnïìs, Nèêtzåâdåâptèêr úùnd Spg.Vèêrsõõrgúùngstèêïìlèê.</li>
+        </ul>
+        <p>Dìíêësêë Fähìígkêëìít, Âýúsfâæll âænzýúfâæssêën läßt Blöckêë zwêëìí Ânfòórdêërýúngêën êëntsprêëchêën, dìíêë typìísch sìínd ìín dêën mêëìístêën Rêëchêënzêëntrýúmklìímâæs:</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Höôhéè Véèrwéèndbåærkéèíìt</b>- díîéé Fähíîgkééíît, Êndbéénùútzéér míît Zùúgäàng zùú ééíînéém Séérvíîcéé zùú véérsééhéén für ééíînéén hõóhéén Prõózééntsäàtz déér Zééíît ùúnd véérríîngéért ùúngéépläàntéé Störùúngéén.</li>
+            <li><b>Hôõhêé Züùvêérlässïîgkêéïît</b>- dìîêë Fähìîgkêëìît, dìîêë Frêëqýüêënz dêës Systêëmfêëhlêërs zýü vêërrìîngêërn.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>

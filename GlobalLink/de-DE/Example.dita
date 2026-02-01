@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
-    <title>Übersicht über die HA-Cluster-Konfiguration</title>
+    <title>HA-Cluster-Konfiguration – Übersicht</title>
     <shortdesc>Zur Unterstützung <ph keyref="enterprise"/> Ihr Rechenzentrum aktualisiert und ein HA-Cluster konfiguriert.
         Befolgen Sie die Methoden und Verfahren Ihres Unternehmens zur Implementierung Ihres Rechenzentrumsclusters. </shortdesc>
     <prolog>
@@ -30,37 +30,37 @@
     </prolog>
     <conbody>
         <p>AKTUALISIEREN SIE HIER FÜR DEMO HA-Cluster und schützen Sie Dienste und Daten im Falle eines Server- oder Dienstausfalls. Im Folgenden finden Sie eine Liste von Prozessen, die Clustern zugeordnet sind. <ul id="ul_pxl_mgk_chb">
-                <li><b>Datenbankreplikation</b> –Konfigurieren Sie die synchrone Replikation zwischen den MS SQL-Servern des primären Standorts (aktiv) und des sekundären Standorts (passiv), um im Falle eines Datenbankknotenausfalls Konsistenz zu gewährleisten. </li>
-                <li><b>Ausfallzeit</b> – Die Anzahl der Ausfallzeiten hängt von der Anzahl der Neustartversuche ab, die der Administrator für die primären Serverdienste konfiguriert, der Anzahl der zulässigen Failovers pro Stunden und der Failback-Konfiguration.</li>
-                <li><b>Failback</b> – Nachdem der primäre Server wieder normalisiert wurde, kann die Arbeitslast von den sekundären Servern zu den primären Servern zurückgefehlt werden. Der primäre Server wird wieder zum aktiven Server.<p>Wiederherstellung von Operationen auf dem primären System oder Standort nach einem Failover oder einer Notfallwiederherstellung auf einem sekundären System oder Standort. </p></li>
-                <li><b>Failover</b> – Wenn einer der primären Server ausfällt, wechselt die Arbeitslast des ausgefallenen Servers automatisch zum sekundären Server im Cluster. Dieser automatische Prozess wird Failover genannt. Failover gewährleistet die kontinuierliche Verfügbarkeit von Anwendungen und Daten. Wenn das Failover abgeschlossen ist, wird der sekundäre Server zum aktiven Server. <p>Wenn ein (primäres) System einen Fehler oder Ausfall erkennt, überträgt es die Steuerung automatisch an ein (sekundäres) Duplikatsystem. Dies gilt für HA-Cluster, bei denen Failover von einem Server zum anderen erfolgt.</p></li>
+                <li><b>Datenbankreplikation</b> – Konfigurieren Sie die synchrone Replikation zwischen dem primären (aktiven) und dem sekundären (passiven) MS SQL-Server, um im Falle eines Datenbankknotenfehlers Konsistenz zu gewährleisten. </li>
+                <li><b>Ausfallzeit</b> – Die Anzahl der Ausfallzeiten hängt von der Anzahl der Neustartversuche ab, die der Administrator für die primären Serverdienste konfiguriert, von der Anzahl der zulässigen Failovers pro Stundenanzahl und von der Failback-Konfiguration.</li>
+                <li><b>Failback</b> – Nachdem der primäre Server wieder normalisiert wurde, kann die Arbeitslast von den sekundären Servern zu den primären Servern zurückgescheitert sein. Der primäre Server wird wieder zum aktiven Server.<p>Wiederherstellung von Operationen auf dem primären System oder Standort nach einem Failover oder einer Notfallwiederherstellung auf einem sekundären System oder Standort. </p></li>
+                <li><b>Failover</b> – Wenn einer der primären Server ausfällt, wechselt die Arbeitslast des ausgefallenen Servers automatisch zum sekundären Server im Cluster. Dieser automatische Prozess wird Failover genannt. Failover gewährleistet die kontinuierliche Verfügbarkeit von Anwendungen und Daten. Nach Abschluss des Failovers wird der sekundäre Server zum aktiven Server. <p>Wenn ein (primäres) System einen Fehler oder Ausfall erkennt, überträgt es die Steuerung automatisch an ein (sekundäres) Duplikatsystem. Dies gilt für HA-Cluster, bei denen Failover von einem Server zum anderen erfolgt.</p></li>
                 <li><b>Graceful Degradation</b> – Prozess, der es Clusterabhängigkeiten ermöglicht, an einem degradierten primären Standort ordnungsgemäß zu arbeiten.</li>
-                <li><b>Redundanz</b> – HA-Cluster verwenden Redundanz, um Single Points of Failure (SPOF) wie einen ausgefallenen Server oder Dienst zu verhindern. HA-Cluster umfassen primäre (aktive) Server, die Dienste oder Datenbanken hosten, und sekundäre (passive) Server, die replizierte Kopien der Dienste und Datenbanken hosten. </li>
-                <li><b>Replikation</b> – Die sekundären Server verfügen über die gleiche Konfiguration und Software wie die primären Server, sie sind ein Duplikat (redundante Kopie) des primären Servers. Daten werden von den primären Servern auf die sekundären Server repliziert (kopiert). </li>
+                <li><b>Redundanz</b> – HA-Cluster verwenden Redundanz, um Single Points of Failure (SPOF), wie z. B. einen ausgefallenen Server oder Dienst, zu verhindern. HA-Cluster umfassen primäre (aktive) Server, die Dienste oder Datenbanken hosten, und sekundäre (passive) Server, die replizierte Kopien der Dienste und Datenbanken hosten. </li>
+                <li><b>Replikation</b> – Die sekundären Server verfügen über die gleiche Konfiguration und Software wie die primären Server, sie sind ein Duplikat (redundante Kopie) des primären Servers. Die Daten werden von den primären Servern auf die sekundären Server repliziert (kopiert). </li>
             </ul></p>
-        <p>Zur Unterstützung von HA und DR für <ph keyref="enterprise"/>, konfigurieren Sie die ausgewählten Komponenten in Ihrem Rechenzentrum für HA.</p>
+        <p>Zur Unterstützung von HA und DR für <ph keyref="enterprise"/>Konfigurieren Sie die ausgewählten Komponenten in Ihrem Rechenzentrum für HA.</p>
         <ul id="ul_tpw_t44_bhb"> 
             <li><b>Cluster-Komponenten</b> – Ein Cluster ist ein Satz von Servern (Knoten), die über physische Kabel und Software verbunden sind. In einer HA-Umgebung dürfen sich diese Servercluster im selben physischen Rechenzentrum befinden. <p>
-                    <note>Im Kontext von Clustern, obwohl die Begriffe Server, Host und Knoten jeweils eine spezifische Bedeutung haben, werden sie häufig synonym verwendet.</note>
+                    <note>Im Kontext von Clustern, obwohl die Begriffe Server, Host und Knoten jeweils eine spezifische Bedeutung haben, werden sie häufig austauschbar verwendet.</note>
                 </p><ul id="ul_a4m_shs_xgb">
                     <li><b>Cluster-Gruppe (Rolle)</b> – Gruppe von geclusterten Diensten, die zusammen übergehen und voneinander abhängig sind. </li>
-                    <li><b>Host</b> – Der Cluster-Computer, der die Dienste hostet.</li>
+                    <li><b>Host</b> – Der Cluster-Rechner, der die Dienste hostet.</li>
                     <li><b>Knoten</b> – Ein generischer Begriff für eine Maschine in einem Cluster.</li>
-                    <li><b>Primärknoten</b> – Der aktive Knoten im Cluster. Die Maschine, in der die Produktionsaktivitäten laufen. </li>
-                    <li><b>Sekundärer Knoten</b> – Die Maschine, die im Falle eines Failovers als Ziel festgelegt wird. Der sekundäre Knoten ist ein passives Duplikat des primären Knotens. </li>
+                    <li><b>Primärer Knoten</b> – Der aktive Knoten im Cluster. Die Maschine, in der die Produktionsaktivitäten laufen. </li>
+                    <li><b>Sekundärer Knoten</b> – Der Computer, der im Falle eines Failovers als Ziel festgelegt wird. Der sekundäre Knoten ist ein passives Duplikat des primären Knotens. </li>
                     <li><b>Server</b> – Der Computer im Cluster, der mit dem Serverbetriebssystem installiert ist.</li>
                 </ul></li>
-            <li><b>Ressourcen-Versionskontrolle (VCS oder SVN)</b></li>
+            <li><b>Ressourcenversionskontrolle (VCS oder SVN)</b></li>
         </ul>
-        <p>HA-Cluster-Technologien schützen vor drei spezifischen Fehlerarten:</p>
+        <p>HA-Cluster-Technologien schützen vor drei spezifischen Arten von Ausfällen:</p>
         <ul id="ul_ehy_dnj_xgb">
-            <li><b>Anwendungs- und Servicefehler</b> – Auswirkungen auf Anwendungssoftware und wichtige Services.</li>
+            <li><b>Anwendungs- und Servicefehler</b> – betreffen Anwendungssoftware und wichtige Services.</li>
             <li><b>Standortausfälle in Organisationen mit mehreren Standorten</b> – verursacht durch Naturkatastrophen, Stromausfälle oder Konnektivitätsausfälle.</li>
-            <li><b>System- und Hardwarefehler</b> – Auswirkungen auf Hardwarekomponenten wie CPUs, Laufwerke, Speicher, Netzwerkadapter und Netzteile.</li>
+            <li><b>System- und Hardwarefehler</b> – betreffen Hardwarekomponenten wie CPUs, Laufwerke, Speicher, Netzwerkadapter und Netzteile.</li>
         </ul>
         <p>Diese Fähigkeit, Fehler zu beheben, ermöglicht es Clustern, zwei Anforderungen zu erfüllen, die in den meisten Rechenzentrumsumgebungen typisch sind:</p>
         <ul id="ul_pr3_cnj_xgb">
-            <li><b>Hohe Verfügbarkeit</b> – die Möglichkeit, Endbenutzern für einen hohen Prozentsatz der Zeit Zugriff auf einen Dienst zu gewähren und ungeplante Ausfälle zu reduzieren.</li>
+            <li><b>Hohe Verfügbarkeit</b> – die Fähigkeit, Endbenutzern für einen hohen Prozentsatz an Zeit Zugriff auf einen Dienst zu gewähren und ungeplante Ausfälle zu reduzieren.</li>
             <li><b>Hohe Zuverlässigkeit</b> – die Fähigkeit, die Häufigkeit von Systemausfällen zu reduzieren.</li>
         </ul>
         

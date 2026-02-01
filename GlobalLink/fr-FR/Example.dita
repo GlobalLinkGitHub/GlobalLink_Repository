@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
-    <title>Vue d'ensemble de configuration de faisceau d'ha</title>
-    <shortdesc>Pour soutenir<ph keyref="enterprise"/>A mis à jour votre centre de calculs, configure un faisceau d'ha.Suivez vos méthodes et procédures de compagnie pour mettre en application votre faisceau du centre de calculs.</shortdesc>
+    <title>Aperçu de la configuration du cluster HA</title>
+    <shortdesc>Pour soutenir <ph keyref="enterprise"/> Mise à jour de votre centre de données, configuration d'un cluster HA.
+        Suivez les méthodes et procédures de votre entreprise pour mettre en œuvre votre cluster de datacenter. </shortdesc>
     <prolog>
-        <author>Automation n'importe où</author>
-        <author type="contributor">bethany.kanui</author>
+        <author>Automation Anywhere</author>
+        <author type="contributor">la béthanie.kanui</author>
         <critdates>
             <created date="2019-02-19"/>
             <!-- Update the revised critdate for changes other than typos -->
@@ -21,84 +22,46 @@
         </critdates>
         <metadata>
             <keywords>
-                <indexterm>Ha<indexterm>processus</indexterm></indexterm>
-                <indexterm>faisceau<indexterm>processus</indexterm></indexterm>
+                <indexterm>HA<indexterm>processus</indexterm></indexterm>
+                <indexterm>cluster<indexterm>processus</indexterm></indexterm>
             </keywords>
         </metadata>
         <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
     </prolog>
     <conbody>
-        <p>La MISE À JOUR ICI POUR des faisceaux d'ha de DÉMO protègent des services et
-            données en cas d'un échec de serveur ou de service.Ce qui suit est une liste de processus
-            lié aux faisceaux.<ul id="ul_pxl_mgk_chb">
-                <li><b>Réplique de base de données</b>- Configurez la réplique synchrone entre
-                    emplacement primaire (actif) et serveurs (passifs) secondaires de MME. SQL d'emplacement à assurer
-                    uniformité en cas d'un échec de noeud de base de données.</li>
-                <li><b>Temps d'arrêt</b>- La quantité de temps d'arrêt dépend du nombre de tentatives de relancement
-                    l'administrateur configure pour les services primaires de serveur, le nombre de
-                    les failovers ont permis par nombre d'heures, et configuration de failback.</li>
-                <li><b>Failback</b>- Après que le serveur primaire soit retourné à la normale, la charge de travail peut
-                    soyez échoué en arrière des serveurs secondaires aux serveurs primaires.Le primaire
-                    le serveur devient le serveur actif encore.<p>Reconstitution des opérations au primaire
-                        système ou emplacement après un rétablissement de failover ou de désastre sur un système secondaire
-                        ou emplacement.</p></li>
-                <li><b>Failover</b>- Si un des serveurs primaires échoue, la charge de travail du échoué
-                    le serveur décale automatiquement au serveur secondaire dans le faisceau.Ceci
-                    le processus automatique s'appelle le failover.Failover assure la disponibilité continue
-                    des applications et des données.Quand le failover accomplit, le serveur secondaire devient
-                    le serveur actif.<p>Quand le système (primaire) d'a détecte un défaut ou un échec, il
-                        transfère automatiquement la commande au système double (secondaire) d'a.Ceci
-                        s'applique aux faisceaux d'ha, à où le failover est d'un serveur
-                    des autres.</p></li>
-                <li><b>Dégradation gracieuse</b>- Dépendances laissantes de processus de faisceau à fonctionner
-                    avec élégance sur un emplacement primaire dégradé.</li>
-                <li><b>Redondance</b>- Redondance d'utilisation de faisceaux d'ha pour empêcher de seuls points d'échec
-                    (SPOF), comme un serveur ou un service échoué.Les faisceaux d'ha incluent primaire (actif)
-                    serveurs qui services de centre serveur ou bases de données et serveurs (passifs) secondaires cela
-                    accueillez les copies repliées des services et des bases de données.</li>
-                <li><b>Réplique</b>- Les serveurs secondaires ont la même configuration et
-                    logiciel comme serveurs primaires, ils sont une reproduction (copie superflue) de
-                    primaire.Des données sont repliées (copié) des serveurs primaires au secondaire
-                    serveurs.</li>
+        <p>METTRE À JOUR ICI POUR LA DÉMO Les clusters HA protègent les services et les données en cas de panne de serveur ou de service. Voici une liste des processus associés aux clusters. <ul id="ul_pxl_mgk_chb">
+                <li><b>Réplication de base de données</b> : configurez la réplication synchrone entre les serveurs MS SQL du site principal (actif) et du site secondaire (passif) pour assurer la cohérence en cas de défaillance d'un nœud de base de données. </li>
+                <li><b>Temps d</b>'arrêt : le temps d'arrêt dépend du nombre de tentatives de redémarrage que l'administrateur configure pour les services du serveur principal, du nombre de basculements autorisés par nombre d'heures et de la configuration de restauration.</li>
+                <li><b>Reprise</b> : une fois que le serveur principal est revenu à la normale, la charge de travail peut être renvoyée des serveurs secondaires vers les serveurs principaux. Le serveur principal redevient le serveur actif.<p>Restauration des opérations sur le système ou site principal après un basculement ou une reprise après sinistre sur un système ou site secondaire. </p></li>
+                <li><b>Basculement</b> : si l'un des serveurs principaux échoue, la charge de travail du serveur défaillant passe automatiquement au serveur secondaire dans le cluster. Ce processus automatique est appelé basculement. Le basculement garantit la disponibilité continue des applications et des données. Une fois le basculement terminé, le serveur secondaire devient le serveur actif. <p>Lorsqu’un système (principal) détecte un défaut ou une défaillance, il transfère automatiquement le contrôle vers un système (secondaire) en double. Cela s'applique aux clusters HA, où le basculement se fait d'un serveur à un autre.</p></li>
+                <li><b>Dégradation gracieuse</b> : processus permettant aux dépendances du cluster de fonctionner gracieusement sur un site principal dégradé.</li>
+                <li><b>Redondance</b> : les clusters HA utilisent la redondance pour empêcher les points de défaillance uniques (SPOF), comme un serveur ou un service défaillant. Les clusters HA comprennent les serveurs principaux (actifs) qui hébergent des services ou des bases de données et les serveurs secondaires (passifs) qui hébergent des copies répliquées des services et des bases de données. </li>
+                <li><b>Réplication</b> : les serveurs secondaires ont la même configuration et le même logiciel que les serveurs principaux. Il s'agit d'un doublon (copie redondante) du serveur principal. Les données sont répliquées (copiées) des serveurs principaux vers les serveurs secondaires. </li>
             </ul></p>
-        <p>Pour soutenir l'ha et le DR pour<ph keyref="enterprise"/>, configurez les composants choisis dedans
-            votre centre de calculs pour l'ha.</p>
+        <p>Pour prendre en charge l’HA et la DR pour <ph keyref="enterprise"/>, configurez les composants sélectionnés dans votre centre de données pour HA.</p>
         <ul id="ul_tpw_t44_bhb"> 
-            <li><b>Composants de faisceau</b>- Un faisceau est des serveurs d'un ensemble (noeuds) qui sont reliés près
-                câbles et logiciel physiques.Dans un environnement d'ha, ces faisceaux des serveurs sont
-                laissé être au même centre de calculs physique.<p>
-                    <note>Dans le contexte des faisceaux, cependant les limites serveur, le centre serveur, et le noeud chacun
-                        ayez la signification spécifique, ils sont fréquemment employés l'un pour l'autre.</note>
+            <li><b>Composants de cluster</b> : un cluster est un ensemble de serveurs (nœuds) connectés par des câbles physiques et des logiciels. Dans un environnement HA, ces clusters de serveurs peuvent se trouver dans le même centre de données physique. <p>
+                    <note>Dans le contexte des clusters, bien que les termes serveur, hôte et nœud aient chacun une signification spécifique, ils sont fréquemment utilisés de manière interchangeable.</note>
                 </p><ul id="ul_a4m_shs_xgb">
-                    <li><b>Groupe de faisceau (rôle)</b>- Groupe de services groupés qui failover
-                        ensemble et dépendez de l'un l'autre.</li>
-                    <li><b>Centre serveur</b>- La machine de faisceau qui accueille les services.</li>
-                    <li><b>Noeud</b>- Une limite générique pour une machine dans un faisceau.</li>
-                    <li><b>Noeud primaire</b>- Le noeud actif dans le faisceau.La machine où
-                        course d'activités de production.</li>
-                    <li><b>Noeud secondaire</b>- La machine qui est indiquée comme cible dans
-                        événement d'un failover.Le noeud secondaire est une reproduction passive de
-                        noeud primaire.</li>
-                    <li><b>Serveur</b>- La machine dans le faisceau installé avec l'opération de serveur
-                        système.</li>
+                    <li><b>Groupe de clusters (rôle)</b> : groupe de services en cluster qui basculent ensemble et dépendent les uns des autres. </li>
+                    <li><b>Hôte</b> : la machine cluster qui héberge les services.</li>
+                    <li><b>Nœud</b> : terme générique désignant une machine dans un cluster.</li>
+                    <li><b>Nœud principal</b> : nœud actif dans le cluster. La machine où les activités de production sont exécutées. </li>
+                    <li><b>Nœud secondaire</b> : machine désignée comme cible en cas de basculement. Le nœud secondaire est un doublon passif du nœud principal. </li>
+                    <li><b>Serveur</b> : machine du cluster installée avec le système d'exploitation du serveur.</li>
                 </ul></li>
-            <li><b>Commande de version de ressource (VCS ou SVN)</b></li>
+            <li><b>Contrôle de version des ressources (VCS ou SVN)</b></li>
         </ul>
-        <p>Les technologies de faisceau d'ha gardent contre trois types spécifiques d'échecs :</p>
+        <p>Les technologies de cluster HA protègent contre trois types de défaillances spécifiques :</p>
         <ul id="ul_ehy_dnj_xgb">
-            <li><b>Échecs d'application et de service</b>- affectation du logiciel d'application et essentiel
-                services.</li>
-            <li><b>Échecs d'emplacement dans des organismes de multisite</b>- causé par des désastres normaux, puissance
-                pannes, ou pannes de connectivité.</li>
-            <li><b>Échecs de système et de matériel</b>- affectant des composants de matériel tels que des unités centrales de traitement,
-                commandes, mémoire, adapteurs de réseau, et alimentations d'énergie.</li>
+            <li><b>Défaillances d’applications et de services</b>, affectant les logiciels d’applications et les services essentiels.</li>
+            <li><b>Défaillances de sites dans les organisations multisites</b>, causées par des catastrophes naturelles, des pannes de courant ou des pannes de connectivité.</li>
+            <li><b>Défaillances du système et du matériel</b>, affectant les composants matériels tels que les processeurs, les disques, la mémoire, les adaptateurs réseau et les alimentations.</li>
         </ul>
-        <p>Cette capacité de manipuler l'échec permet à des faisceaux de répondre à deux exigences qui sont typiques
-            dans la plupart des environnements du centre de calculs :</p>
+        <p>Cette capacité à gérer les défaillances permet aux clusters de répondre à deux exigences typiques de la plupart des environnements de datacenter :</p>
         <ul id="ul_pr3_cnj_xgb">
-            <li><b>Disponibilité élevée</b>- la capacité de fournir à des utilisateurs l'accès à un service
-                pour un pourcentage élevé de temps et réduit les pannes non-programmées.</li>
-            <li><b>Fiabilité élevée</b>- la capacité de réduire la fréquence de l'échec de système.</li>
+            <li><b>Haute disponibilité</b> : la capacité à fournir aux utilisateurs finaux un accès à un service pendant un pourcentage élevé de temps et à réduire les interruptions non programmées.</li>
+            <li><b>Haute fiabilité</b> : la capacité à réduire la fréquence des défaillances du système.</li>
         </ul>
         
         </conbody>

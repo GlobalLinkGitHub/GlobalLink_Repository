@@ -1,0 +1,72 @@
+Page_1:
+  '3':
+    Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
+      Heading: 'Overview'
+      Unselected:
+        '0': 'Refer to Management'
+        '1': 'DHR'
+      Allergic_to_Latex: 'Allergic to Latex'
+      Wheelchair_dependent: 'Wheelchair dependent'
+      Donor_Needs_(8): 'Donor Needs (8)'
+      21FNDC4113: '21FNDC4113'
+      XXX-XX-1212: 'XXX-XX-1212'
+      A00503741: 'A00503741'
+      PBN: 'PBN'
+      IDN_/_SSN: 'IDN / SSN'
+      PDN: 'PDN'
+      David_Lee_Smith: 'David Lee Smith'
+      Tertiary:
+        '0': 'Status Check (4)'
+      Group_451:
+        '8': '8'
+        More_Info: 'More Info'
+        2nd_Last_Donation: '2nd Last Donation'
+        Gender: 'Gender'
+        Last_Donation: 'Last Donation'
+        DOB: 'DOB'
+        'No':
+          _of_Donations: 'No. of Donations'
+        11/01/2020: '11/01/2020'
+        Male: 'Male'
+        12/04/2020: '12/04/2020'
+        03/02/1988: '03/02/1988'
+      Group_520:
+        Approved: 'Approved'
+        Donor_Status: 'Donor Status'
+        Physical: 'Physical'
+        Athletic_Pulse: 'Athletic Pulse'
+        CDCS: 'CDCS'
+        EDQ: 'EDQ'
+        Required: 'Required'
+        N/A: 'N/A'
+        Okay: 'Okay'
+      Group_452:
+        Test_Status: 'Test Status'
+        SPE_Drawn: 'SPE Drawn'
+        SPE_Reviewed: 'SPE Reviewed'
+        SPE_Tested: 'SPE Tested'
+        10/30/2020: '10/30/2020'
+        11/10/2020: '11/10/2020'
+        11/07/2020: '11/07/2020'
+      Group_453:
+        Deferral_Information: 'Deferral Information'
+        Deferred: 'Deferred'
+        11/03/2021: '11/03/2021'
+        Tertiary: 'See More (2)'
+      Primary: 'Continue'
+      Reason: 'Reason'
+      24522_-_Unacceptable_injection_site: '24522 - Unacceptable injection site'
+      Version_10:
+        '0':
+          '0':
+            1_|_Last_Updated_12/12/2021: 'Version 10.0.0.1 | Last Updated 12/12/2021 '
+      JD: 'JD'
+      Frame_777:
+        Home:
+          '0': 'APPTS.'
+          '1': 'MONITOR DONORS'
+          '2': 'PROCESs DONORS'
+      Frame_794:
+        Home:
+          '0': 'HELP'
+          '1': 'Profile'

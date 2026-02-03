@@ -1,0 +1,72 @@
+Page_1:
+  '3':
+    Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
+      Heading: '概要'
+      Unselected:
+        '0': '経営陣を参照'
+        '1': 'DHR'
+      Allergic_to_Latex: 'ラテックスアレルギー202Feb2026日'
+      Wheelchair_dependent: '車椅子依存'
+      Donor_Needs_(8): ドナーニーズ（8）
+      21FNDC4113: '21FNDC4113'
+      XXX-XX-1212: 'XXX-XX-1212'
+      A00503741: 'A00503741'
+      PBN: 'PBN'
+      IDN_/_SSN: 'IDN / SSN'
+      PDN: 'PDN'
+      David_Lee_Smith: デヴィッド・リー・スミス
+      Tertiary:
+        '0': 'ステータスチェック(4)'
+      Group_451:
+        '8': '8'
+        More_Info: '詳細情報'
+        2nd_Last_Donation: '2回目の最後の寄付'
+        Gender: 性別
+        Last_Donation: '最後の寄付'
+        DOB: '生年月日'
+        'No':
+          _of_Donations: '寄付数'
+        11/01/2020: '11/01/2020'
+        Male: '男性'
+        12/04/2020: '12/04/2020'
+        03/02/1988: '03/02/1988'
+      Group_520:
+        Approved: '承認済み'
+        Donor_Status: 'ドナーステータス'
+        Physical: '物理的'
+        Athletic_Pulse: アスレチック・パルス
+        CDCS: 'CDCS'とは
+        EDQ: 'EDQ' は
+        Required: '必須'
+        N/A: '該当なし'
+        Okay: オケイ
+      Group_452:
+        Test_Status: 'テストステータス'
+        SPE_Drawn: 'SPE図面'
+        SPE_Reviewed: 'SPEがレビューされました'
+        SPE_Tested: 'SPEテスト済み'
+        10/30/2020: '10/30/2020'
+        11/10/2020: '11/10/2020'
+        11/07/2020: '11/07/2020'
+      Group_453:
+        Deferral_Information: '遅延情報'
+        Deferred: '延期'
+        11/03/2021: '11/03/2021'
+        Tertiary: もっと見る (2)
+      Primary: '続行'
+      Reason: '理由'
+      24522_-_Unacceptable_injection_site: '24522 - 許容できない注射部位'
+      Version_10:
+        '0':
+          '0':
+            1_|_Last_Updated_12/12/2021: 'バージョン 10.0.0.1 | 最終更新日 12/12/2021 '
+      JD: 'JD'
+      Frame_777:
+        Home:
+          '0': 'アプリ'
+          '1': ドルを監視する
+          '2': ドルを処理'
+      Frame_794:
+        Home:
+          '0': 'ヘルプ'
+          '1': 'プロファイル'

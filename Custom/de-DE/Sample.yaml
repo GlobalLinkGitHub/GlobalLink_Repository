@@ -1,0 +1,72 @@
+Page_1:
+  '3':
+    Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
+      Heading: 'Übersicht'
+      Unselected:
+        '0': 'An Management verweisen'
+        '1': 'DHR'
+      Allergic_to_Latex: 'Allergisch gegen Latex 02Feb2026'
+      Wheelchair_dependent: 'rollstuhlabhängig'
+      Donor_Needs_(8): 'Spendenbedürfnisse (8)'
+      21FNDC4113: '21FNDC4113'
+      XXX-XX-1212: 'XXX-XX-1212'
+      A00503741: 'A00503741'
+      PBN: 'PBN'
+      IDN_/_SSN: 'IDN / SSN'
+      PDN: 'PDN'
+      David_Lee_Smith: 'David Lee Smith'
+      Tertiary:
+        '0': 'Statusprüfung (4)'
+      Group_451:
+        '8': '8'
+        More_Info: 'Weitere Informationen'
+        2nd_Last_Donation: '2. letzte Spende'
+        Gender: 'Geschlecht'
+        Last_Donation: „Letzte Spende“
+        DOB: 'DOB'
+        'No':
+          _of_Donations: „Anzahl der Spenden“
+        11/01/2020: '11/01/2020'
+        Male: 'Männlich'
+        12/04/2020: '12/04/2020'
+        03/02/1988: '03/02/1988'
+      Group_520:
+        Approved: 'Genehmigt'
+        Donor_Status: 'Spenderstatus'
+        Physical: 'Physisch'
+        Athletic_Pulse: 'Sportlicher Puls'
+        CDCS: 'CDCS'
+        EDQ: 'EDQ'
+        Required: 'Erforderlich'
+        N/A: 'N/Z'
+        Okay: „Okay“
+      Group_452:
+        Test_Status: 'Teststatus'
+        SPE_Drawn: 'SPE gezeichnet'
+        SPE_Reviewed: 'SPE geprüft'
+        SPE_Tested: 'SPE getestet'
+        10/30/2020: '10/30/2020'
+        11/10/2020: '11/10/2020'
+        11/07/2020: '11/07/2020'
+      Group_453:
+        Deferral_Information: 'Deferrale Informationen'
+        Deferred: 'Zurückgestellt'
+        11/03/2021: '11/03/2021'
+        Tertiary: 'Mehr anzeigen (2)'
+      Primary: 'Weiter'
+      Reason: 'Grund'
+      24522_-_Unacceptable_injection_site: '24522 - Inakzeptable Injektionsstelle'
+      Version_10:
+        '0':
+          '0':
+            1_|_Last_Updated_12/12/2021: 'Version 10.0.0.1 | Zuletzt aktualisiert am 12/12/2021 '
+      JD: 'JD'
+      Frame_777:
+        Home:
+          '0': 'ANWENDUNGEN'.
+          '1': 'MONITOR DONORS'
+          '2': 'PROZES DONORS'
+      Frame_794:
+        Home:
+          '0': 'HILFE'
+          '1': 'Profil'

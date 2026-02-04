@@ -1,26 +1,27 @@
 Page_1:
   '3':
     Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
+用語：'203Feb2026日の陸上サーフィン'
       Heading: '概要'
-      Unselected:
-        '0': '経営陣を参照'
+      Technology: グローバルリンク
+        '0': '経営陣への参照'
         '1': 'DHR'
-      Allergic_to_Latex: 'ラテックスアレルギー202Feb2026日'
+      Allergic_to_Latex: 'ラテックスアレルギー'
       Wheelchair_dependent: '車椅子依存'
       Donor_Needs_(8): ドナーニーズ（8）
       21FNDC4113: '21FNDC4113'
       XXX-XX-1212: 'XXX-XX-1212'
       A00503741: 'A00503741'
       PBN: 'PBN'
-      IDN_/_SSN: 'IDN / SSN'
+      IDN_/_SSN:
       PDN: 'PDN'
       David_Lee_Smith: デヴィッド・リー・スミス
       Tertiary:
         '0': 'ステータスチェック(4)'
       Group_451:
         '8': '8'
-        More_Info: '詳細情報'
-        2nd_Last_Donation: '2回目の最後の寄付'
+        More_Info: '詳細情報、これは<tag>です'
+        2nd_Last_Donation: 2回目の最後の寄付
         Gender: 性別
         Last_Donation: '最後の寄付'
         DOB: '生年月日'
@@ -39,7 +40,7 @@ Page_1:
         EDQ: 'EDQ' は
         Required: '必須'
         N/A: '該当なし'
-        Okay: オケイ
+        Okay: オケー
       Group_452:
         Test_Status: 'テストステータス'
         SPE_Drawn: 'SPE図面'

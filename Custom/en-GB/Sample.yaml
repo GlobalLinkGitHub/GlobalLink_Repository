@@ -1,25 +1,26 @@
 Page_1:
   '3':
     Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
+      Term Phrase: 'Artic Surfing'
       Heading: 'Overview'
-      Unselected:
+      Technology: 'GlobalLink'
         '0': 'Refer to Management'
         '1': 'DHR'
-      Allergic_to_Latex: 'Allergic to Latex 02Feb2026'
+      Allergic_to_Latex: 'Allergic to Latex'
       Wheelchair_dependent: 'Wheelchair dependent'
       Donor_Needs_(8): 'Donor Needs (8)'
       21FNDC4113: '21FNDC4113'
       XXX-XX-1212: 'XXX-XX-1212'
       A00503741: 'A00503741'
       PBN: 'PBN'
-      IDN_/_SSN: 'IDN / SSN'
+      IDN_/_SSN:
       PDN: 'PDN'
       David_Lee_Smith: 'David Lee Smith'
       Tertiary:
         '0': 'Status Check (4)'
       Group_451:
         '8': '8'
-        More_Info: 'More Info'
+        More_Info: 'More Info, this is a <tag>'
         2nd_Last_Donation: '2nd Last Donation'
         Gender: 'Gender'
         Last_Donation: 'Last Donation'

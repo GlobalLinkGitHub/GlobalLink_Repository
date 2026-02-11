@@ -1,0 +1,250 @@
+{
+  "translation": [
+    {
+      "id": "SYN_REP_REPORT_EN TEMPS RÉEL",
+      "text": "Rapport en temps réel",
+      "helpText": "Nom du rapport. Le rapport en temps réel est un rapport qui capture les signes vitaux et les courbes au moment du déclenchement.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "RAPPORT_SIGNES_VITAUX_REP_SYN",
+      "text": "Rapport sur les signes vitaux",
+      "helpText": "Nom du rapport. Le rapport des signes vitaux affiche les paramètres vitaux enregistrés périodiquement tels que la fréquence cardiaque, la SpO2 et la tension artérielle.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "RAPPORT_TENDANCES_TABULAIRES_REP_SYN",
+      "text": "Rapport de tendance tabulaire",
+      "helpText": "Nom du rapport. Le rapport de tendance tabulaire affiche les signes vitaux ou les mesures au fil du temps sous forme de tableau structuré pour faciliter la comparaison.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "RAPPORT_TENDANCES_GRAPHIQUES_REP_SYN",
+      "text": "Rapport graphique des tendances",
+      "helpText": "Nom du rapport (les traductions doivent être cohérentes avec le texte de l'interface utilisateur SYN_UI_REPORT_GRAPHICAL_TREND). Le rapport graphique des tendances affiche des graphiques de séries temporelles pour visualiser les tendances sur une période.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "RAPPORT_RÉSUMÉ_RÉSULTATS_REP_SYN",
+      "text": "Résumé EWS et rapport des résultats",
+      "helpText": "Nom du rapport qui contient à la fois le résumé EWS et ses résultats. Le rapport affiche les scores d’alerte précoce avec les paramètres cliniques et les évaluations correspondants.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_TYPE_PAT",
+      "text": "Type de patient",
+      "helpText": "Le type de patient dans le rapport. La traduction doit être cohérente avec SYN_PTMT_PATIENT_TYPE",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_DATE_DE_NAISSANCE",
+      "text": "Date de naissance",
+      "helpText": "Date de naissance du patient dans le rapport",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "POIDS_REP_ SYN",
+      "text": "Poids",
+      "helpText": "Poids du patient dans le rapport",
+      "maxCharLimit": "6."
+    },
+    {
+      "id": "SYN_REP_HAUTEUR",
+      "text": "Hauteur",
+      "helpText": "Taille du patient dans le rapport",
+      "maxCharLimit": "9."
+    },
+    {
+      "id": "SYN_REP_MODE_PACÉ",
+      "text": "Mode stimulé",
+      "helpText": "Mode stimulé du patient dans le rapport. La traduction doit être cohérente avec SYN_PTMT_PACED_MODE",
+      "maxCharLimit": "10."
+    },
+    {
+      "id": "SYN_REP_AGE",
+      "text": "Âge",
+      "helpText": "Âge du patient dans le rapport(Les traductions doivent être cohérentes avec le texte de l'interface utilisateur SYN_UI_AGE)",
+      "maxCharLimit": "9."
+    },
+    {
+      "id": "SYN_REP_BSA",
+      "text": "BSA",
+      "helpText": "BSA (surface corporelle) du patient dans le rapport",
+      "maxCharLimit": "6."
+    },
+    {
+      "id": "SYN_REP_SEX_AT_NAISSANCE",
+      "text": "Sexe à la naissance",
+      "helpText": "Sexe à la naissance du patient dans le rapport. La traduction doit être cohérente avec SYN_PTMT_SEX_AT_BIRTH",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "ALARMES_ACTIVES_REP_ SYN",
+      "text": "Alarmes actives",
+      "helpText": "Section Alarmes actives dans le rapport en temps réel",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_NUMÉRIQUES",
+      "text": "Numériques",
+      "helpText": "Section des chiffres dans le rapport en temps réel",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_PAGE",
+      "text": "Page",
+      "helpText": "Indication du numéro de page dans le pied de page du rapport",
+      "maxCharLimit": "6."
+    },
+    {
+      "id": "SYN_REP_DATE",
+      "text": "Date",
+      "helpText": "Section Date du rapport de tendance des signes vitaux",
+      "maxCharLimit": ""
+    },
+    {
+      "id": "SYN_REP_VITALS",
+      "text": "Vitales",
+      "helpText": "Section Vitales du rapport (les traductions doivent être cohérentes avec le texte de l’interface utilisateur SYN_UI_SPOTCHECK_VITALS)",
+      "maxCharLimit": "10."
+    },
+    {
+      "id": "SYN_REP_DERNIER_PAGE",
+      "text": "Dernière page",
+      "helpText": "Dernière page du rapport",
+      "maxCharLimit": "15"
+    },
+    {
+      "id": "NUMÉRO_ROOM_REP_ SYN",
+      "text": "Numéro de chambre",
+      "helpText": "Numéro de chambre du patient dans le rapport",
+      "maxCharLimit": "12"
+    },
+    {
+      "id": "SYN_REP_GÉNÉRÉ_ON",
+      "text": "Temps de génération du rapport",
+      "helpText": "Date et heure de génération du rapport (possédons-nous suffisamment d’espace pour écrire la date et l’heure dans la chaîne ?)",
+      "maxCharLimit": ""
+    },
+    {
+      "id": "SYN_REP_HEURE_ADMISSION",
+      "text": "Heure d’admission",
+      "helpText": "Date et heure d’admission du patient (possédons-nous suffisamment d’espace pour inscrire la date et l’heure dans la chaîne ?)",
+      "maxCharLimit": "20"
+    },
+    {
+      "id": "SYN_REP_OBSERVATIONS",
+      "text": "Observations",
+      "helpText": "Observations sur le patient (les traductions doivent être cohérentes avec le texte de l'interface utilisateur SYN_UI_OBSERVATIONS)",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_TREND_TIMEFRAME",
+      "text": "Délai de tendance",
+      "helpText": "Délai des tendances du rapport",
+      "maxCharLimit": "20"
+    },
+    {
+      "id": "SYN_REP_DATE_HEURE_REPORT",
+      "text": "Date et heure du rapport",
+      "helpText": "Date et heure de génération du rapport",
+      "maxCharLimit": "20"
+    },
+    {
+      "id": "ENREGISTREMENT_REP_ SYN",
+      "text": "Dossiers de contrôle ponctuel",
+      "helpText": "Section de rapport qui indique les enregistrements de contrôle ponctuel dans le rapport",
+      "maxCharLimit": "18"
+    },
+    {
+      "id": "SYN_REP_CONTINUOUS_DATA",
+      "text": "Données continues",
+      "helpText": "Section Rapport qui indique les données continues dans le rapport",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_DERNIER_ENREGISTREMENT",
+      "text": "Dernier enregistrement",
+      "helpText": "Section de rapport qui indique l’heure du dernier enregistrement de contrôle ponctuel",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "REPORT_ECG_ SYN_REP",
+      "text": "Rapport ECG",
+      "helpText": "Nom du rapport. Le rapport ECG affiche les courbes d’électrocardiogramme et les signes vitaux liés à l’ECG, comme les mesures de la fréquence cardiaque et de la ST pour l’évaluation cardiaque.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_ECG_RELIÉS_AUX_VITAUX",
+      "text": "Signes vitaux liés à l’ECG",
+      "helpText": "Section du tableau du rapport  ECG affichant les mesures ECG numériques telles que la fréquence cardiaque, les valeurs du segment ST",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_BANDWIDTH",
+      "text": "Bande passante",
+      "helpText": "La plage de fréquences utilisée pour capturer et afficher le signal ECG dans le rapport ECG, généralement mesurée en Hz.",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_NON_PACÉ",
+      "text": "Non stimulé",
+      "helpText": "Indique que le signal ECG est enregistré sans l’influence d’un stimulateur cardiaque implanté dans le rapport ECG",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "RAPPORT_LIMITES_ALARME_REP_SYN",
+      "text": "Rapport des limites d’alarme",
+      "helpText": "Nom du rapport. Le rapport des limites d’alarme affiche les paramètres de seuil supérieur et inférieur pour les paramètres vitaux utilisés pour déclencher les alarmes.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "LIMITES_ALARME_REP_ SYN",
+      "text": "Limites d’alarme",
+      "helpText": "Tableau Section qui affiche la liste des paramètres de seuil supérieur et inférieur pour les paramètres vitaux utilisés pour déclencher les alarmes.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_REPORT_LOGUE_ÉVÉNEMENTS",
+      "text": "Rapport du journal des événements",
+      "helpText": "Nom du rapport. Le rapport du journal des événements répertorie tous les événements de surveillance tels que les alarmes, les changements d’état des dérivations et les ajustements de limite avec des horodatages précis.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_LOGUE_ÉVÉNEMENTS",
+      "text": "Journal des événements",
+      "helpText": "Section du tableau qui affiche la liste de toutes les activités de surveillance telles que les alarmes, l’état des dérivations avec des horodatages précis.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "RÉSUMÉ_REP_ SYN",
+      "text": "Résumé",
+      "helpText": "Section du tableau dans le rapport en temps réel affichant les données d’alarme au moment du déclenchement",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_FORMES_ONDES",
+      "text": "Formes d'onde",
+      "helpText": "Section des courbes dans le rapport en temps réel affichant les données des courbes capturées au moment du déclenchement",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "RAPPORT_ENREGISTREMENT_BANDE_REP_SYN",
+      "text": "Rapport d'enregistrement de séquence",
+      "helpText": "Nom du rapport. Un rapport médical qui affiche des enregistrements de données physiologiques continus (comme l’ECG, les signes vitaux) sous forme de diagramme à bandes pour l’analyse et la documentation",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_ENREGISTREMENT_DATE_ET_HEURE",
+      "text": "Enregistrement de la date et de l’heure",
+      "helpText": "Étiquette pour le champ de date et d’heure indiquant quand l’enregistrement des données physiologiques a été capturé",
+      "maxCharLimit": "25"
+    },
+    {
+      "id": "SYN_REP_HR_ÉVÉNEMENT_1",
+      "text": "Événement RH 1",
+      "helpText": "En-tête de la première section d’événement de fréquence cardiaque dans les lignes de grille du graphique à bandes",
+      "maxCharLimit": "20"
+    }
+  ]
+}

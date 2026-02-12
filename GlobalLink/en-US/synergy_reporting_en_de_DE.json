@@ -2,7 +2,7 @@
   "translation": [
     {
       "id": "SYN_REP_REALTIME_REPORT",
-      "text": "Real-time report",
+      "text": "Real-time report GlobalLink",
       "helpText": "Name of the report. Real-time report is a report which captures the vitals and waves at the trigger time.",
       "maxCharLimit": "40"
     },

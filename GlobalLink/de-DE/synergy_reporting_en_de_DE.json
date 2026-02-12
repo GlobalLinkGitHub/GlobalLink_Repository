@@ -1,0 +1,250 @@
+{
+  "translation": [
+    {
+      "id": "SYN_REP_REALTIME_BERICHT",
+      "text": "Echtzeit-Bericht",
+      "helpText": "Name des Berichts. Echtzeitbericht ist ein Bericht, der die Vitalparameter und Kurven zum Auslösezeitpunkt erfasst.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_VITAL_SIGNS_BERICHT",
+      "text": "Vitalzeichen-Bericht",
+      "helpText": "Name des Berichts. Der Vitalparameterbericht zeigt regelmäßig aufgezeichnete Vitalparameter wie Herzfrequenz, SpO2 und Blutdruck an.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_TABELLARISCHE_TRENDS_BERICHT",
+      "text": "Tabellarischer Trendbericht",
+      "helpText": "Name des Berichts. Der tabellarische Trendbericht zeigt Vitalparameter oder Messungen im Zeitverlauf in einem strukturierten Tabellenformat für einen einfachen Vergleich an.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_GRAFISCHER_TRENDS_BERICHT",
+      "text": "Grafischer Trendbericht",
+      "helpText": "Name des Berichts (Übersetzungen sollten mit dem UI-Text SYN_UI_REPORT_GRAPHICAL_TREND übereinstimmen). Grafischer Trendbericht zeigt Zeitreihendiagramme an, um Trends über einen Zeitraum zu visualisieren.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_EWS_ZUSAMMENFASSUNG_ERGEBNISSE_BERICHT",
+      "text": "EWS Zusammenfassung und Ergebnisbericht",
+      "helpText": "Name des Berichts, der sowohl die EWS-Zusammenfassung als auch seine Ergebnisse enthält. Der Bericht zeigt Frühwarn-Scores mit entsprechenden klinischen Parametern und Beurteilungen.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_PAT_TYPE",
+      "text": "Patiententyp",
+      "helpText": "Der Typ des Patienten im Bericht. Die Übersetzung sollte mit SYN_PTMT_PATIENT_TYPE übereinstimmen",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_DATE_OF_BIRTH",
+      "text": "Geburtsdatum",
+      "helpText": "Geburtsdatum des Patienten im Bericht",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_GEWICHT",
+      "text": "Gewicht",
+      "helpText": "Gewicht des Patienten im Bericht",
+      "maxCharLimit": "6"
+    },
+    {
+      "id": "SYN_REP_HÖHE",
+      "text": "Höhe",
+      "helpText": "Höhe des Patienten im Bericht",
+      "maxCharLimit": "9"
+    },
+    {
+      "id": "SYN_REP_PACED_MODE",
+      "text": "Paced-Modus",
+      "helpText": "Pacer-Modus des Patienten im Bericht. Die Übersetzung sollte mit SYN_PTMT_PACED_MODE übereinstimmen",
+      "maxCharLimit": "10"
+    },
+    {
+      "id": "SYN_REP_AGE",
+      "text": "Alter",
+      "helpText": "Alter des Patienten im Bericht(Übersetzungen sollten mit dem UI-Text SYN_UI_AGE übereinstimmen)",
+      "maxCharLimit": "9"
+    },
+    {
+      "id": "SYN_REP_BSA",
+      "text": "BSA",
+      "helpText": "Körperoberfläche (KOF) des Patienten im Bericht",
+      "maxCharLimit": "6"
+    },
+    {
+      "id": "SYN_REP_SEX_AT_BIRTH",
+      "text": "Geschlecht bei Geburt",
+      "helpText": "Geschlecht bei der Geburt des Patienten im Bericht. Die Übersetzung sollte mit SYN_PTMT_SEX_AT_BIRTH übereinstimmen",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_AKTIV_ALARME",
+      "text": "Aktive Alarme",
+      "helpText": "Abschnitt „Aktive Alarme“ im Echtzeitbericht",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_NUMERIKA",
+      "text": "Numerische Werte",
+      "helpText": "Numerischer Abschnitt im Echtzeitbericht",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_SEITE",
+      "text": "Seite",
+      "helpText": "Angabe der Seitenzahl in der Fußzeile des Berichts",
+      "maxCharLimit": "6"
+    },
+    {
+      "id": "SYN_REP_DATUM",
+      "text": "Datum:",
+      "helpText": "Datumsabschnitt des Vitalparameter-Trendberichts",
+      "maxCharLimit": ""
+    },
+    {
+      "id": "SYN_REP_VITALS",
+      "text": "Vitalzeichen",
+      "helpText": "Vitalwerte des Berichts (Übersetzungen sollten mit dem UI-Text SYN_UI_SPOTCHECK_VITALS übereinstimmen)",
+      "maxCharLimit": "10"
+    },
+    {
+      "id": "SYN_REP_LAST_SEITE",
+      "text": "Letzte Seite",
+      "helpText": "Letzte Seite des Berichts",
+      "maxCharLimit": "15"
+    },
+    {
+      "id": "SYN_REP_ZIMMER_NUMMER",
+      "text": "Zimmernummer",
+      "helpText": "Raumnummer des Patienten im Bericht",
+      "maxCharLimit": "12"
+    },
+    {
+      "id": "SYN_REP_GENerIERT_EIN",
+      "text": "Berichtserstellungszeit",
+      "helpText": "Datum und Uhrzeit der Berichterstellung (haben wir genügend Platz, um Datum und Uhrzeit in die Zeichenfolge zu schreiben?)",
+      "maxCharLimit": ""
+    },
+    {
+      "id": "SYN_REP_ADMISSION_ZEIT",
+      "text": "Aufnahmezeit",
+      "helpText": "Datum und Uhrzeit der Aufnahme des Patienten (haben wir genügend Platz, um Datum und Uhrzeit in die Zeichenfolge zu schreiben?)",
+      "maxCharLimit": "20"
+    },
+    {
+      "id": "SYN_REP_BEOBACHTUNGEN",
+      "text": "Beobachtungen",
+      "helpText": "Beobachtungen zum Patienten (Übersetzungen sollten mit dem UI-Text SYN_UI_OBSERVATIONS übereinstimmen)",
+      "maxCharLimit": "13"
+    },
+    {
+      "id": "SYN_REP_TREND_TIMEFRAME",
+      "text": "Trend-Zeitrahmen",
+      "helpText": "Zeitrahmen der Trends im Bericht",
+      "maxCharLimit": "20"
+    },
+    {
+      "id": "SYN_REP_DATE_TIME_REPORT",
+      "text": "Datum und Uhrzeit des Berichts",
+      "helpText": "Datum und Uhrzeit der Berichterstellung",
+      "maxCharLimit": "20"
+    },
+    {
+      "id": "SYN_REP_SPOTCHECK_RECORD",
+      "text": "Aufzeichnungen von Stichproben",
+      "helpText": "Berichtsabschnitt, der die Stichproben-Datensätze im Bericht angibt",
+      "maxCharLimit": "18"
+    },
+    {
+      "id": "SYN_REP_KONTINUIERLICHE_DATEN",
+      "text": "Kontinuierliche Daten",
+      "helpText": "Berichtsbereich, der die kontinuierlichen Daten im Bericht anzeigt",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_LAST_RECORD",
+      "text": "Letzter Datensatz",
+      "helpText": "Berichtabschnitt, der die Aufzeichnungszeit der letzten Stichprobe angibt",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_EKG_BERICHT",
+      "text": "EKG-Bericht",
+      "helpText": "Name des Berichts. Im EKG-Bericht werden EKG-Kurven und EKG-bezogene Vitalparameter wie Herzfrequenz und ST-Messungen zur Beurteilung des Herzens angezeigt.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_ECG_VERWANDTE_VITALE",
+      "text": "EKG-bezogene Vitalzeichen",
+      "helpText": "Abschnitt der Tabelle im EKG-Bericht  mit numerischen EKG-Messungen wie Herzfrequenz, ST-Segment-Werte",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_BANDBREITE",
+      "text": "Bandbreite",
+      "helpText": "Der Frequenzbereich, der verwendet wird, um das EKG-Signal im EKG-Bericht zu erfassen und anzuzeigen, typischerweise gemessen in Hz.",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_NON_PACED",
+      "text": "Nicht stimuliert",
+      "helpText": "Gibt an, dass das EKG-Signal ohne Einfluss eines implantierten Schrittmachers im EKG-Bericht aufgezeichnet wird",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_ALARM_GRENZEN_BERICHT",
+      "text": "Bericht zu Alarmgrenzen",
+      "helpText": "Name des Berichts. Der Alarmgrenzwertbericht zeigt die oberen und unteren Schwellenwerteinstellungen für Vitalparameter an, die zum Auslösen von Alarmen verwendet werden.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_ALARM_GRENZWERTE",
+      "text": "Alarmgrenzen",
+      "helpText": "Tabellenabschnitt, der eine Liste der oberen und unteren Schwellenwerteinstellungen für Vitalparameter anzeigt, die zum Auslösen von Alarmen verwendet werden.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_EREIGNIS_LOG_BERICHT",
+      "text": "Ereignisprotokoll-Bericht",
+      "helpText": "Name des Berichts. Der Ereignisprotokollbericht listet alle Überwachungsereignisse wie Alarme, Änderungen des Elektrodenstatus und Grenzwertanpassungen mit präzisen Zeitstempeln auf.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_EREIGNIS_LOG",
+      "text": "Ereignisprotokoll",
+      "helpText": "Der Tabellenabschnitt zeigt eine Liste aller Überwachungsaktivitäten wie Alarme, Lead-Status mit präzisen Zeitstempeln an.",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_ZUSAMMENFASSUNG",
+      "text": "Zusammenfassung",
+      "helpText": "Abschnitt der Tabelle im Echtzeitbericht, der die Alarmdaten zum ausgelösten Zeitpunkt anzeigt",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_WAVEFORMS",
+      "text": "Wellenformen",
+      "helpText": "Abschnitt der Kurven im Echtzeitbericht, der die erfassten Kurvendaten zum ausgelösten Zeitpunkt anzeigt",
+      "maxCharLimit": "16"
+    },
+    {
+      "id": "SYN_REP_STREIFEN_AUFZEICHNUNG_BERICHT",
+      "text": "Bericht zur Streifenaufzeichnung",
+      "helpText": "Name des Berichts. Ein medizinischer Bericht, der kontinuierliche physiologische Datenaufzeichnungen (wie EKG, Vitalzeichen) in einem Streifendiagrammformat zur Analyse und Dokumentation anzeigt",
+      "maxCharLimit": "40"
+    },
+    {
+      "id": "SYN_REP_AUFZEICHNUNG_DATUM_UND_UHRZEIT",
+      "text": "Datum und Uhrzeit der Aufzeichnung",
+      "helpText": "Etikett für das Datums- und Uhrzeitfeld, das angibt, wann die physiologische Datenaufzeichnung erfasst wurde",
+      "maxCharLimit": "25"
+    },
+    {
+      "id": "SYN_REP_HR_EREIGNIS_1",
+      "text": "HR-Ereignis 1",
+      "helpText": "Kopfzeile für den ersten Abschnitt zu Herzfrequenzereignissen in den Streifendiagramm-Rasterlinien",
+      "maxCharLimit": "20"
+    }
+  ]
+}

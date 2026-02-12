@@ -7,7 +7,7 @@
       "maxCharLimit": "40"
     },
     {
-      "id": "RAPPORT_SIGNES_VITAUX_REP_SYN",
+      "id": "RAPPORT_SIGNAUX_VITAUX_REP_SYN",
       "text": "Rapport sur les signes vitaux",
       "helpText": "Nom du rapport. Le rapport des signes vitaux affiche les paramètres vitaux enregistrés périodiquement tels que la fréquence cardiaque, la SpO2 et la tension artérielle.",
       "maxCharLimit": "40"
@@ -171,7 +171,7 @@
     {
       "id": "REPORT_ECG_ SYN_REP",
       "text": "Rapport ECG",
-      "helpText": "Nom du rapport. Le rapport ECG affiche les courbes d’électrocardiogramme et les signes vitaux liés à l’ECG, comme les mesures de la fréquence cardiaque et de la ST pour l’évaluation cardiaque.",
+      "helpText": "Nom du rapport. Le rapport ECG affiche les tracés de l’électrocardiogramme et les signes vitaux liés à l’ECG, comme les mesures de la fréquence cardiaque et du segment ST pour l’évaluation cardiaque.",
       "maxCharLimit": "40"
     },
     {
@@ -183,7 +183,7 @@
     {
       "id": "SYN_REP_BANDWIDTH",
       "text": "Bande passante",
-      "helpText": "La plage de fréquences utilisée pour capturer et afficher le signal ECG dans le rapport ECG, généralement mesurée en Hz.",
+      "helpText": "Plage de fréquences utilisée pour capturer et afficher le signal ECG dans le rapport ECG, généralement mesurée en Hz.",
       "maxCharLimit": "16"
     },
     {
@@ -217,7 +217,7 @@
       "maxCharLimit": "40"
     },
     {
-      "id": "RÉSUMÉ_REP_ SYN",
+      "id": "SYN_REP_RÉSUMÉ",
       "text": "Résumé",
       "helpText": "Section du tableau dans le rapport en temps réel affichant les données d’alarme au moment du déclenchement",
       "maxCharLimit": "40"
@@ -231,12 +231,12 @@
     {
       "id": "RAPPORT_ENREGISTREMENT_BANDE_REP_SYN",
       "text": "Rapport d'enregistrement de séquence",
-      "helpText": "Nom du rapport. Un rapport médical qui affiche des enregistrements de données physiologiques continus (comme l’ECG, les signes vitaux) sous forme de diagramme à bandes pour l’analyse et la documentation",
+      "helpText": "Nom du rapport. Un rapport médical qui affiche des enregistrements continus de données physiologiques (comme l’ECG, les signes vitaux) sous forme de diagramme à bandes pour l’analyse et la documentation",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_ENREGISTREMENT_DATE_ET_HEURE",
-      "text": "Enregistrement de la date et de l’heure",
+      "text": "Date et heure d’enregistrement",
       "helpText": "Étiquette pour le champ de date et d’heure indiquant quand l’enregistrement des données physiologiques a été capturé",
       "maxCharLimit": "25"
     },

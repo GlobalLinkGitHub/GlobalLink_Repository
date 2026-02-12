@@ -171,19 +171,19 @@
     {
       "id": "SYN_REP_ECG_REPORT",
       "text": "ECG report",
-      "helpText": "Name of the report. ECG report   displays electrocardiogram waveforms and ECG-related vitals like heart rate   and ST measurements for cardiac evaluation.",
+      "helpText": "Name of the report. ECG report displays electrocardiogram waveforms and ECG-related vitals like heart rate   and ST measurements for cardiac evaluation.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_ECG_RELATED_VITALS",
       "text": "ECG-related vitals",
-      "helpText": "Section of the table in ECG   report  displaying numerical ECG   measurements such as heart rate, ST segment values",
+      "helpText": "Section of the table in ECG report  displaying numerical ECG   measurements such as heart rate, ST segment values",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_BANDWIDTH",
       "text": "Bandwidth",
-      "helpText": "The frequency range used to   capture and display the ECG signal in the ECG report, typically measured in   Hz.",
+      "helpText": "The frequency range used to capture and display the ECG signal in the ECG report, typically measured in   Hz.",
       "maxCharLimit": "16"
     },
     {

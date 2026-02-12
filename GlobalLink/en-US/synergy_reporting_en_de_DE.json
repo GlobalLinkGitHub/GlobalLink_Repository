@@ -2,67 +2,67 @@
   "translation": [
     {
       "id": "SYN_REP_REALTIME_REPORT",
-      "text": "Echtzeit-Bericht",
+      "text": "Rapport en temps réel",
       "helpText": "Name of the report. Real-time report is a report which captures the vitals and waves at the trigger time.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_VITAL_SIGNS_REPORT",
-      "text": "Vitalzeichen-Bericht",
+      "text": "Rapport sur les signes vitaux",
       "helpText": "Name of the report. Vital signs report displays periodically recorded vital parameters such as heart rate, SpO₂, and blood pressure.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_TABULAR_TRENDS_REPORT",
-      "text": "Tabellarischer Trendbericht",
+      "text": "Rapport de tendance tabulaire",
       "helpText": "Name of the report. Tabular trend report displays vitals or measurements over time in a structured table format for easy comparison.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_GRAPHICAL_TRENDS_REPORT",
-      "text": "Grafischer Trendbericht",
+      "text": "Rapport de tendance graphique",
       "helpText": "Name of the report (Translations should be Consistent with UI text SYN_UI_REPORT_GRAPHICAL_TREND). Graphical trend report displays time-series graphs to visualize trends over a period.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_EWS_SUMMARY_RESULTS_REPORT",
-      "text": "EWS Zusammenfassung und Ergebnisbericht",
+      "text": "Résumé EWS et rapport des résultats",
       "helpText": "Name of the report which contains both EWS summary and its results. The report shows Early Warning Scores with corresponding clinical parameters and assessments.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_PAT_TYPE",
-      "text": "Patiententyp",
+      "text": "Type de patient",
       "helpText": "The type of the patient in the report. Translation should be consistent with SYN_PTMT_PATIENT_TYPE",
       "maxCharLimit": "13"
     },
     {
       "id": "SYN_REP_DATE_OF_BIRTH",
-      "text": "Geburtsdatum",
+      "text": "Date de naissance",
       "helpText": "Date of birth of the patient in the report",
       "maxCharLimit": "13"
     },
     {
       "id": "SYN_REP_WEIGHT",
-      "text": "Gewicht",
+      "text": "Poids",
       "helpText": "Weight of the patient in the report",
       "maxCharLimit": "6"
     },
     {
       "id": "SYN_REP_HEIGHT",
-      "text": "Höhe",
+      "text": "Hauteur",
       "helpText": "Height of the patient in the report",
       "maxCharLimit": "9"
     },
     {
       "id": "SYN_REP_PACED_MODE",
-      "text": "Paced-Modus",
+      "text": "Mode stimulé",
       "helpText": "Paced mode of patient in the report. Translation should be consistent with SYN_PTMT_PACED_MODE",
       "maxCharLimit": "10"
     },
     {
       "id": "SYN_REP_AGE",
-      "text": "Alter",
+      "text": "Âge",
       "helpText": "Age of patient in the report(Translations should be Consistent with UI text SYN_UI_AGE)",
       "maxCharLimit": "9"
     },
@@ -74,175 +74,175 @@
     },
     {
       "id": "SYN_REP_SEX_AT_BIRTH",
-      "text": "Geschlecht bei Geburt",
+      "text": "Sexe à la naissance",
       "helpText": "Sex at birth of patient in the report. Translation should be consistent with SYN_PTMT_SEX_AT_BIRTH",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_ACTIVE_ALARMS",
-      "text": "Aktive Alarme",
+      "text": "Alarmes actives",
       "helpText": "Active alarms section in real-time report",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_NUMERICS",
-      "text": "Numerische Werte",
+      "text": "Numériques",
       "helpText": "Numerics section in real-time report",
       "maxCharLimit": "13"
     },
     {
       "id": "SYN_REP_PAGE",
-      "text": "Seite",
+      "text": "Page",
       "helpText": "Indication of the page number in the report's footer",
       "maxCharLimit": "6"
     },
     {
       "id": "SYN_REP_DATE",
-      "text": "Datum:",
+      "text": "Date",
       "helpText": "Date section of the vital signs trend report",
       "maxCharLimit": ""
     },
     {
       "id": "SYN_REP_VITALS",
-      "text": "Vitalzeichen",
+      "text": "Vitales",
       "helpText": "Vitals section of the report (Translations should be Consistent with UI text SYN_UI_SPOTCHECK_VITALS)",
       "maxCharLimit": "10"
     },
     {
       "id": "SYN_REP_LAST_PAGE",
-      "text": "Letzte Seite",
+      "text": "Dernière page",
       "helpText": "Last page of the report",
       "maxCharLimit": "15"
     },
     {
       "id": "SYN_REP_ROOM_NUMBER",
-      "text": "Zimmernummer",
+      "text": "Numéro de chambre",
       "helpText": "Room number of the patient in the report",
       "maxCharLimit": "12"
     },
     {
       "id": "SYN_REP_GENERATED_ON",
-      "text": "Berichtserstellungszeit",
+      "text": "Temps de génération du rapport",
       "helpText": "Report generation date and time (do we have enough space to write date and time in the string?)",
       "maxCharLimit": ""
     },
     {
       "id": "SYN_REP_ADMISSION_TIME",
-      "text": "Aufnahmezeit",
+      "text": "Heure d’admission",
       "helpText": "Admission date and time of patient (do we have enough space to write date and time in the string?)",
       "maxCharLimit": "20"
     },
     {
       "id": "SYN_REP_OBSERVATIONS",
-      "text": "Beobachtungen",
+      "text": "Observations",
       "helpText": "Observations about patient (Translations should be Consistent with UI text SYN_UI_OBSERVATIONS)",
       "maxCharLimit": "13"
     },
     {
       "id": "SYN_REP_TREND_TIMEFRAME",
-      "text": "Trend-Zeitrahmen",
+      "text": "Délai de tendance",
       "helpText": "Time frame of the trends in the report",
       "maxCharLimit": "20"
     },
     {
       "id": "SYN_REP_DATE_TIME_REPORT",
-      "text": "Datum und Uhrzeit des Berichts",
+      "text": "Date et heure du rapport",
       "helpText": "Date and time of report generation",
       "maxCharLimit": "20"
     },
     {
       "id": "SYN_REP_SPOTCHECK_RECORD",
-      "text": "Aufzeichnungen von Stichproben",
+      "text": "Dossiers de contrôle ponctuel",
       "helpText": "Report section that indicates the spot-check records in the report",
       "maxCharLimit": "18"
     },
     {
       "id": "SYN_REP_CONTINUOUS_DATA",
-      "text": "Kontinuierliche Daten",
+      "text": "Données continues",
       "helpText": "Report section that indicates the Continuous data in the report",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_LAST_RECORD",
-      "text": "Letzter Datensatz",
+      "text": "Dernier enregistrement",
       "helpText": "Report section that indicates the Last spot-check record time",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_ECG_REPORT",
-      "text": "EKG-Bericht",
+      "text": "Rapport ECG",
       "helpText": "Name of the report. ECG report displays electrocardiogram waveforms and ECG-related vitals like heart rate   and ST measurements for cardiac evaluation.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_ECG_RELATED_VITALS",
-      "text": "EKG-bezogene Vitalzeichen",
+      "text": "Signes vitaux liés à l’ECG",
       "helpText": "Section of the table in ECG report  displaying numerical ECG   measurements such as heart rate, ST segment values",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_BANDWIDTH",
-      "text": "Bandbreite",
+      "text": "Bande passante",
       "helpText": "The frequency range used to capture and display the ECG signal in the ECG report, typically measured in   Hz.",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_NON_PACED",
-      "text": "Nicht stimuliert",
+      "text": "Non stimulé",
       "helpText": "Indicates the ECG signal is   recorded without the influence of an implanted pacemaker in the ECG report",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_ALARM_LIMITS_REPORT",
-      "text": "Alarmgrenzen-Bericht",
+      "text": "Rapport des limites d’alarme",
       "helpText": "Name of the report. Alarm limits report displays the upper and lower threshold settings for vital parameters   used to trigger alarms.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_ALARM_LIMITS",
-      "text": "Alarmgrenzen",
+      "text": "Limites d’alarme",
       "helpText": "Table Section that displays list of the upper and lower threshold settings for vital parameters used to   trigger alarms.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_EVENT_LOG_REPORT",
-      "text": "Ereignisprotokoll-Bericht",
+      "text": "Rapport du journal des événements",
       "helpText": "Name of the report. Event log report lists all monitoring events such as alarms, lead status changes, and   limit adjustments with precise timestamps.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_EVENT_LOG",
-      "text": "Ereignisprotokoll",
+      "text": "Journal des événements",
       "helpText": "Table Section that displays list of all the monitoring activities such as alarms, lead status with precise   timestamps.",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_SUMMARY",
-      "text": "Zusammenfassung",
+      "text": "Résumé",
       "helpText": "Section of the table in Real-time report displaying the alarm data at the triggered time",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_WAVEFORMS",
-      "text": "Wellenformen",
+      "text": "Formes d'onde",
       "helpText": "Section of the waves in Real-time report displaying the captured wave data at the triggered time",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_STRIP_RECORDING_REPORT",
-      "text": "Bericht zur Streifenaufzeichnung",
+      "text": "Rapport d'enregistrement de séquence",
       "helpText": "Name of the report. A medical   report that displays continuous physiological data recordings (such as ECG,   vital signs) in a strip chart format for analysis and documentation",
       "maxCharLimit": "40"
     },
     {
       "id": "SYN_REP_RECORDING_DATE_AND_TIME",
-      "text": "Datum und Uhrzeit der Aufzeichnung",
+      "text": "Date et heure d’enregistrement",
       "helpText": "Label for the date and time   field indicating when the physiological data recording was captured",
       "maxCharLimit": "25"
     },
     {
       "id": "SYN_REP_HR_EVENT_1",
-      "text": "HR-Ereignis 1",
+      "text": "Événement RH 1",
       "helpText": "Header for the first heart rate   event section in the strip chart gridlines",
       "maxCharLimit": "20"
     }

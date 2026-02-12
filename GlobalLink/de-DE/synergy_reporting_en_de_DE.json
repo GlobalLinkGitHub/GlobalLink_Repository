@@ -159,7 +159,7 @@
     {
       "id": "SYN_REP_KONTINUIERLICHE_DATEN",
       "text": "Kontinuierliche Daten",
-      "helpText": "Berichtsbereich, der die kontinuierlichen Daten im Bericht anzeigt",
+      "helpText": "Berichtbereich, der die kontinuierlichen Daten im Bericht anzeigt",
       "maxCharLimit": "16"
     },
     {
@@ -171,7 +171,7 @@
     {
       "id": "SYN_REP_EKG_BERICHT",
       "text": "EKG-Bericht",
-      "helpText": "Name des Berichts. Im EKG-Bericht werden EKG-Kurven und EKG-bezogene Vitalparameter wie Herzfrequenz und ST-Messungen zur Beurteilung des Herzens angezeigt.",
+      "helpText": "Name des Berichts. Im EKG-Bericht werden EKG-Kurven und EKG-bezogene Vitalparameter wie Herzfrequenz und ST-Messungen zur kardialen Beurteilung angezeigt.",
       "maxCharLimit": "40"
     },
     {
@@ -187,14 +187,14 @@
       "maxCharLimit": "16"
     },
     {
-      "id": "SYN_REP_NON_PACED",
+      "id": "SYN_REP_NICHT_PAZIERT",
       "text": "Nicht stimuliert",
-      "helpText": "Gibt an, dass das EKG-Signal ohne Einfluss eines implantierten Schrittmachers im EKG-Bericht aufgezeichnet wird",
+      "helpText": "Zeigt an, dass das EKG-Signal ohne Einfluss eines implantierten Schrittmachers im EKG-Bericht aufgezeichnet wird",
       "maxCharLimit": "16"
     },
     {
       "id": "SYN_REP_ALARM_GRENZEN_BERICHT",
-      "text": "Bericht zu Alarmgrenzen",
+      "text": "Alarmgrenzen-Bericht",
       "helpText": "Name des Berichts. Der Alarmgrenzwertbericht zeigt die oberen und unteren Schwellenwerteinstellungen für Vitalparameter an, die zum Auslösen von Alarmen verwendet werden.",
       "maxCharLimit": "40"
     },
@@ -213,7 +213,7 @@
     {
       "id": "SYN_REP_EREIGNIS_LOG",
       "text": "Ereignisprotokoll",
-      "helpText": "Der Tabellenabschnitt zeigt eine Liste aller Überwachungsaktivitäten wie Alarme, Lead-Status mit präzisen Zeitstempeln an.",
+      "helpText": "Tabellenabschnitt, der eine Liste aller Überwachungsaktivitäten wie Alarme, Lead-Status mit präzisen Zeitstempeln anzeigt.",
       "maxCharLimit": "40"
     },
     {
@@ -235,7 +235,7 @@
       "maxCharLimit": "40"
     },
     {
-      "id": "SYN_REP_AUFZEICHNUNG_DATUM_UND_UHRZEIT",
+      "id": "SYN_REP_AUFZEICHNUNG_DATUM_UND_ZEIT",
       "text": "Datum und Uhrzeit der Aufzeichnung",
       "helpText": "Etikett für das Datums- und Uhrzeitfeld, das angibt, wann die physiologische Datenaufzeichnung erfasst wurde",
       "maxCharLimit": "25"

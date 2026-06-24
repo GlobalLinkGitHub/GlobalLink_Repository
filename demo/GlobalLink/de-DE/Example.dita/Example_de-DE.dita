@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>Ha Blockieren-Konfiguration überblick</title>
+    <shortdesc>Sich stützen <ph keyref="enterprise"/> Aktualisierte Ihr Rechenzentrum, baut einen ha Block zusammen.
+        Folgen Sie Ihren Firmamethoden und - verfahren für das Einführen Ihres Rechenzentrumblockes. </shortdesc>
+    <prolog>
+        <author>Automatisierung überall</author>
+        <author type="contributor">bethany.kanui</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ha<indexterm>Prozesse</indexterm></indexterm>
+                <indexterm>Block<indexterm>Prozesse</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>UPDATE HIER FÜR Demo-ha Blöcke schützen Dienstleistungen und
+            Daten im Falle eines Bediener- oder Service-Ausfalls. Das folgende ist eine Liste von Prozessen
+            verbunden MIT Blöcken. <ul id="ul_pxl_mgk_chb">
+                <li><b>Datenbankreproduktion</b>- Bauen Sie synchrone Reproduktion zwischen zusammen
+                    Primäraufstellungsort (aktiv) und Sekundäraufstellungsort (passiv) sicherzustellen Bediener DES MS SQL
+                    übereinstimmung im Falle eines Datenbanknullpunktausfalls. </li>
+                <li><b>Stillstandszeit</b>- Würfel Menge der Stillstandszeit hängt von Der Zahl Wiederanlauf Versuchen AB
+                    der Verwalter baut für Würfel Primärbedienerdienstleistungen, Würfel Zahl von zusammen
+                    failovers ließen Prozahl von Stunden und Würfel failback Konfiguration.</li>
+                <li><b>Failback</b>- Nachdem der Primärbediener zum normales zurückgebracht ist, kann Würfel Arbeitsbelastung
+                    seien Zurück von den, Sekundärbedienern zu, das Höhle Primärbedienern Sie ausgefallen. Das Primär
+                    Bediener wird der aktive Bediener wieder.<p>Wiederherstellung von Betrieben zum Primär
+                        System oder Aufstellungsort nach einer failover oder Unfallwiederaufnahme auf einem Sekundärsystem
+                        oder Aufstellungsort. </p></li>
+                <li><b>Failover</b>- Wenn einer der Primärbediener ausfällt, Würfel Arbeitsbelastung von verlassen
+                    Bediener verschiebt automatisch sich auf Höhle Sekundärbediener im Block. Dieses
+                    automatischer Prozeß wird failover genannt. Failover stellt ununterbrochene Verwendbarkeit sicher
+                    von den Anwendungen und von den Daten. Wenn failover durchführt, wird der Sekundärbediener
+                    der aktive Bediener. <p>Wenn a (Primär) System eine Störung oder einen Ausfall ermittelt, es
+                        bringt automatisch Steuerung auf a (Sekundär) doppeltes System. Dieses
+                        nach trifft auf ha Blöcke zu, denen Failover von Einem Bediener ist
+                    andere.</p></li>
+                <li><b>Kontrollierter Leistungsrückgang</b>- Gewährende Blockprozeßabhängigkeiten zum zu funktionieren
+                    würdevoll auf einem verminderten Primäraufstellungsort.</li>
+                <li><b>Redundanz</b>- Ha Blockieren-Gebrauchredundanz, zum der einzelnen das verhindern Punkte DES Ausfalls zu
+                    (SPOF), wie ein verlassener Bediener oder ein Service. Ha Blöcke schließen Primär MIT ein (aktiv)
+                    Bediener Würfel Wirt Dienstleistungen oder Datenbanken und Sekundär (passives) Bediener das
+                    bewirten Sie wiederholte Kopien der Dienstleistungen und der Datenbanken. </li>
+                <li><b>Reproduktion</b>- Würfel Sekundärbediener haben Würfel gleiche Konfiguration und
+                    Software als sterben Primärbediener, sind sie ein Duplikat (überflüssige Kopie) von
+                    hauptsächlich. Daten werden (kopiert) von den Primärbedienern zum Sekundär wiederholt
+                    Bediener. </li>
+            </ul></p>
+        <p>Stützen ha und Dr für <ph keyref="enterprise"/>, bauen Sie Würfel vorgewählten Bestandteile innen zusammen
+            Ihr Rechenzentrum für ha.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Blockbestandteile</b>- Ein Block ist Bediener eines Satzes (Nullpunkte) Würfel, den vorbei angeschlossen, werden
+                körperliche Kabel und Software. Einem ha Klima sind im diese Blöcke der Bediener
+                im gleichen körperlichen Rechenzentrum sein dürfen. <p>
+                    <note>Im Kontext der Blöcke, zwar in der Höhle Bezeichnungen Bediener, im Wirt und im Nullpunkt jeder
+                        haben Sie spezifische Bedeutung, sie werden das austauschbar verwendet häufig.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Blockgruppe (Rolle)</b>- Gruppe gesammelte Dienstleistungen Würfel failover
+                        zusammen und seien Sie von Einander abhängig. </li>
+                    <li><b>Wirt</b>- Würfel Blockmaschine, Würfelwürfel Dienstleistungen bewirtet.</li>
+                    <li><b>Nullpunkt</b>- Eine generische Bezeichnung für eine Maschine im einem Block.</li>
+                    <li><b>Primärnullpunkt</b>- Der aktive Nullpunkt im Block. Würfel Maschine wo
+                        Produktion Tätigkeiten Durchlauf. </li>
+                    <li><b>Sekundärnullpunkt</b>- Würfel Maschine, Würfel als das Ziel im gekennzeichnet wird
+                        Fall eines failover. Der Sekundärnullpunkt ist ein passives Duplikat von
+                        Primärnullpunkt. </li>
+                    <li><b>Bediener</b>- Würfel Maschine im Block angebracht MIT dem Bedienerfunktionieren
+                        System.</li>
+                </ul></li>
+            <li><b>Hilfsmittelversion Steuerung (VCS oder SVN)</b></li>
+        </ul>
+        <p>Ha Blocktechnologien schützen gegen drei spezifische Arten Ausfälle:</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Anwendung und Service-Ausfälle</b>- Beeinflussen von Anwendersoftware und wesentlich
+                Dienstleistungen.</li>
+            <li><b>Aufstellungsortausfälle im Höhle multisite Organisationen</b>- verursacht durch Naturkatastrophen, Energie
+                Störungen oder Konnektivitätstörungen.</li>
+            <li><b>System und Kleinteilausfälle</b>- Hardwareeinheiten wie CPUs beeinflussend,
+                Antriebe, Gedächtnis, Netzadapter und Spg.Versorgungsteile.</li>
+        </ul>
+        <p>Diese Fähigkeit, Ausfall anzufassen läßt Blöcke zwei Anforderungen entsprechen, sterben typisch sind
+            in der Höhle meisten Rechenzentrumklimas:</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Hohe Verwendbarkeit</b>- Würfel Fähigkeit, Endbenutzer MIT Zugang zu einem Service zu versehen
+                für einen hohen Prozentsatz der Zeit und verringert ungeplante Störungen.</li>
+            <li><b>Hohe Zuverlässigkeit</b>- Würfel Fähigkeit, Würfel Frequenz DES Systemfehlers zu verringern.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>

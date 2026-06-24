@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>D'ha d'ensemble de faisceau de Vue de configuration de</title>
+    <shortdesc>Versez le soutenir <ph keyref="enterprise"/> Un jour votre centre de calculs d'à de mis, configurent le d'ha de faisceau d'un.
+        Les méthodes et le procédures de compagnie de vos de Suivez versent des calculs de votre faisceau du centre de d'application d'en de mettre. </shortdesc>
+    <prolog>
+        <author>Où de n'importe d'automation</author>
+        <author type="contributor">bethany.kanui</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ha<indexterm>processus</indexterm></indexterm>
+                <indexterm>faisceau<indexterm>processus</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>La La MISE À JOUR ICI SE RENVERSENT des services protègent de DES de de DÉMO de d'ha de faisceaux de DES et
+            ou de service d'en cas d'un échec de serveur de données. Est une liste de processus de costume de qui de la CE
+            faisceaux aux. de lié. <ul id="ul_pxl_mgk_chb">
+                <li><b>Données de Réplique de base de</b>- Entre de synchrone de réplique de La de Configurez
+                    primaire de mise en place (actif) et secondaires de MME. de serveurs (passifs) Assureur d'à de d'emplacement de SQL
+                    en cas d'un échec de noeud de de données bas d'uniformité. </li>
+                <li><b>D'arrêt de Temps</b>- Tentatives de relancement de dépend du nombre de de d'arrêt de quantité de temps de La
+                    le l'administrateur configurent versent des les services primaires de serveur, le nombre de
+                    les permis des failovers Ontario de les par les d'heures de nombre, et la configuration de failback.</li>
+                <li><b>Failback</b>- Normale de La d'à de retourné de soit de primaire d'Après que le serveur, peut de de travail de charge de La
+                    primaires aux. de serveurs de secondaires de serveurs de DES d'arrière d'en d'échoué de soyez. Le primaire
+                    bis devient d'actif de le serveur le serveur.<p>Primaire d'Au d'opérations de DES de reconstitution
+                        secondaire de système du sur un de de désastre d'ou d'un rétablissement de failover d'après de mise en place d'ou de système
+                        mise en place d'ou. </p></li>
+                <li><b>Failover</b>- Échoue de primaires de serveurs de DES du silicium un, échoué de de travail du de charge de La
+                    serveur secondaire dans le faisceau d'Au d'automatiquement de décale de le serveur. Ceci
+                    automatique s'appelle le failover de le processus. Failover assurent le disponibilité de La continuent
+                    applications de DES et données de DES. Accomplit de Quand le failover, secondaire de le serveur devient
+                    actif de le serveur. <p>Échec de l'ou un de défaut du détecte un de d'a de Quand le système (primaire), il
+                        d'a de double de système d'Au de commande de La d'automatiquement de transfère (secondaire). Ceci
+                        d'ha aux. de faisceaux de s'applique, serveur de d'un d'à où le failover est
+                    autres de DES.</p></li>
+                <li><b>Gracieuse de Dégradation</b>- Fonctionner d'à de faisceau de Dépendances laissantes de processus de
+                    dégradé de primaire de mise en place du sur un d'élégance d'avec.</li>
+                <li><b>Redondance</b>- Le d'ha de Redondance d'utilisation de faisceaux versent le d'échec de points d'empêcher de seuls
+                    (SPOF), échoué de service de l'ou un de serveur du comme un. Primaire incluent de d'ha de faisceaux de Les (actif)
+                    serveur ou bases de données de qui services de centre de serveurs et cela de secondaires de serveurs (passifs)
+                    les les d'accueillez copie les services et le des bases de données de DES de repliées. </li>
+                <li><b>Réplique</b>- Configuration de même de La des secondaires Ontario de serveurs de Les et
+                    primaires de serveurs de comme de logiciel, reproduction d'une de sont d'Ils (superflue de copie) De
+                    primaire. Secondaire d'Au de primaires de serveurs de DES de repliées de sont de données de DES (copié)
+                    serveurs. </li>
+            </ul></p>
+        <p>Versez le l'ha de soutenir et le DR versent <ph keyref="enterprise"/>, dedans de choisis de composants de les de configurez
+            votre centre de calculs versent le l'ha.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Composants de faisceau</b>- Près de reliés de sont de qui d'ensemble de d'un de serveurs de DES d'est de faisceau d'un (noeuds)
+                câbles et physiques de logiciel. D'ha d'environnement de Dans un, sont de serveurs de DES de faisceaux de ces
+                physique de même centre de calculs d'Au d'être de laissé. <p>
+                    <note>Faisceaux de Dans le contexte des, serveur cependant de limites de les, serveur de le centre, et chacun de le noeud
+                        le spécifique de sens de La d'ayez, l'un d'employés de fréquemment de sont d'Ils versent le l'autre.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Groupe de faisceau (rôle)</b>- Failover de qui de groupés de Groupe de services
+                        ensemble et l'autre de dépendez de l'un. </li>
+                    <li><b>Serveur de centre</b>- Services de les d'accueille de qui de machine de faisceau de La.</li>
+                    <li><b>Noeud</b>- Le générique de limite d'Une versent le faisceau des dans un de machine d'une.</li>
+                    <li><b>Primaire de Noeud</b>- Actif dans le faisceau de Le noeud. Où de machine de La
+                        course d'activités de production. </li>
+                    <li><b>Secondaire de Noeud</b>- Dans cible de comme d'indiquée d'est de qui de machine de La
+                        failover de d'un d'événement. Reproduction De passif d'une d'est de secondaire de Le noeud
+                        primaire de noeud. </li>
+                    <li><b>Serveur</b>- Installé avec l'opération de serveur de machine dans le faisceau de La
+                        système.</li>
+                </ul></li>
+            <li><b>Ressource de Commande de version de (ou SVN de VCS)</b></li>
+        </ul>
+        <p>Les trois gardent de contre de d'ha de Les technologies de faisceau dactylographie des d'échecs de spécifiques :</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>D'application et de service d'Échecs</b>- d'application et essentiel d'affectation du logiciel
+                services.</li>
+            <li><b>Dans des organismes de multisite de d'emplacement d'Échecs</b>- normaux par de désastres de DES de causé, puissance
+                pannes, ou pannes de connectivité.</li>
+            <li><b>Échecs de système et de matériel</b>- DES affectant unités centrales de traitement de que de tels de des composants de matériel,
+                commandes, mémoire, adapteurs de réseau, et d'énergie d'alimentations.</li>
+        </ul>
+        <p>Typiques de sont de qui d'exigences de deux d'à de des faisceaux de répondre d'à de permet de l'échec de Cette capacité de manipuler
+            calculs de des environnements du centre de de plupart de La de dans :</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Élevée de Disponibilité</b>- service de l'à un de l'accès d'utilisateurs de DES d'à de la capacité de fournir
+                versez un pourcentage élevé de temps et non-programmées de pannes de les de réduit.</li>
+            <li><b>Élevée de Fiabilité</b>- système de fréquence de l'échec de de La de la capacité de réduire.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>

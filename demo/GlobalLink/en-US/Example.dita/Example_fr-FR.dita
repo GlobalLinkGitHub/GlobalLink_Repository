@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>Vue d'ensemble de configuration de faisceau d'ha</title>
+    <shortdesc>Pour soutenir <ph keyref="enterprise"/> A mis à jour votre centre de calculs, configure un faisceau d'ha.
+        Suivez vos méthodes et procédures de compagnie pour mettre en application votre faisceau du centre de calculs. </shortdesc>
+    <prolog>
+        <author>Automation n'importe où</author>
+        <author type="contributor">bethany.kanui</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ha<indexterm>processus</indexterm></indexterm>
+                <indexterm>faisceau<indexterm>processus</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>La MISE À JOUR ICI POUR des faisceaux d'ha de DÉMO protègent des services et
+            données en cas d'un échec de serveur ou de service. Ce qui suit est une liste de processus
+            lié aux faisceaux. <ul id="ul_pxl_mgk_chb">
+                <li><b>Réplique de base de données</b>- Configurez la réplique synchrone entre
+                    emplacement primaire (actif) et serveurs (passifs) secondaires de MME. SQL d'emplacement à assurer
+                    uniformité en cas d'un échec de noeud de base de données. </li>
+                <li><b>Temps d'arrêt</b>- La quantité de temps d'arrêt dépend du nombre de tentatives de relancement
+                    l'administrateur configure pour les services primaires de serveur, le nombre de
+                    les failovers ont permis par nombre d'heures, et configuration de failback.</li>
+                <li><b>Failback</b>- Après que le serveur primaire soit retourné à la normale, la charge de travail peut
+                    soyez échoué en arrière des serveurs secondaires aux serveurs primaires. Le primaire
+                    le serveur devient le serveur actif encore.<p>Reconstitution des opérations au primaire
+                        système ou emplacement après un rétablissement de failover ou de désastre sur un système secondaire
+                        ou emplacement. </p></li>
+                <li><b>Failover</b>- Si un des serveurs primaires échoue, la charge de travail du échoué
+                    le serveur décale automatiquement au serveur secondaire dans le faisceau. Ceci
+                    le processus automatique s'appelle le failover. Failover assure la disponibilité continue
+                    des applications et des données. Quand le failover accomplit, le serveur secondaire devient
+                    le serveur actif. <p>Quand le système (primaire) d'a détecte un défaut ou un échec, il
+                        transfère automatiquement la commande au système double (secondaire) d'a. Ceci
+                        s'applique aux faisceaux d'ha, à où le failover est d'un serveur
+                    des autres.</p></li>
+                <li><b>Dégradation gracieuse</b>- Dépendances laissantes de processus de faisceau à fonctionner
+                    avec élégance sur un emplacement primaire dégradé.</li>
+                <li><b>Redondance</b>- Redondance d'utilisation de faisceaux d'ha pour empêcher de seuls points d'échec
+                    (SPOF), comme un serveur ou un service échoué. Les faisceaux d'ha incluent primaire (actif)
+                    serveurs qui services de centre serveur ou bases de données et serveurs (passifs) secondaires cela
+                    accueillez les copies repliées des services et des bases de données. </li>
+                <li><b>Réplique</b>- Les serveurs secondaires ont la même configuration et
+                    logiciel comme serveurs primaires, ils sont une reproduction (copie superflue) de
+                    primaire. Des données sont repliées (copié) des serveurs primaires au secondaire
+                    serveurs. </li>
+            </ul></p>
+        <p>Pour soutenir l'ha et le DR pour <ph keyref="enterprise"/>, configurez les composants choisis dedans
+            votre centre de calculs pour l'ha.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Composants de faisceau</b>- Un faisceau est des serveurs d'un ensemble (noeuds) qui sont reliés près
+                câbles et logiciel physiques. Dans un environnement d'ha, ces faisceaux des serveurs sont
+                laissé être au même centre de calculs physique. <p>
+                    <note>Dans le contexte des faisceaux, cependant les limites serveur, le centre serveur, et le noeud chacun
+                        ayez la signification spécifique, ils sont fréquemment employés l'un pour l'autre.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Groupe de faisceau (rôle)</b>- Groupe de services groupés qui failover
+                        ensemble et dépendez de l'un l'autre. </li>
+                    <li><b>Centre serveur</b>- La machine de faisceau qui accueille les services.</li>
+                    <li><b>Noeud</b>- Une limite générique pour une machine dans un faisceau.</li>
+                    <li><b>Noeud primaire</b>- Le noeud actif dans le faisceau. La machine où
+                        course d'activités de production. </li>
+                    <li><b>Noeud secondaire</b>- La machine qui est indiquée comme cible dans
+                        événement d'un failover. Le noeud secondaire est une reproduction passive de
+                        noeud primaire. </li>
+                    <li><b>Serveur</b>- La machine dans le faisceau installé avec l'opération de serveur
+                        système.</li>
+                </ul></li>
+            <li><b>Commande de version de ressource (VCS ou SVN)</b></li>
+        </ul>
+        <p>Les technologies de faisceau d'ha gardent contre trois types spécifiques d'échecs :</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Échecs d'application et de service</b>- affectation du logiciel d'application et essentiel
+                services.</li>
+            <li><b>Échecs d'emplacement dans des organismes de multisite</b>- causé par des désastres normaux, puissance
+                pannes, ou pannes de connectivité.</li>
+            <li><b>Échecs de système et de matériel</b>- affectant des composants de matériel tels que des unités centrales de traitement,
+                commandes, mémoire, adapteurs de réseau, et alimentations d'énergie.</li>
+        </ul>
+        <p>Cette capacité de manipuler l'échec permet à des faisceaux de répondre à deux exigences qui sont typiques
+            dans la plupart des environnements du centre de calculs :</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Disponibilité élevée</b>- la capacité de fournir à des utilisateurs l'accès à un service
+                pour un pourcentage élevé de temps et réduit les pannes non-programmées.</li>
+            <li><b>Fiabilité élevée</b>- la capacité de réduire la fréquence de l'échec de système.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>

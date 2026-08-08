@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>Les ha Bloquent-Konfiguration l'überblick</title>
+    <shortdesc>Sich stützen <ph keyref="enterprise"/> Aktualisierte Ihr Rechenzentrum, baut einen le bloc d'ha zusammen.
+        Und de Folgen Sie Ihren Firmamethoden - verfahren les das Einführen Ihres Rechenzentrumblockes de für. </shortdesc>
+    <prolog>
+        <author>Überall d'Automatisierung</author>
+        <author type="contributor">bethany.kanui</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ha<indexterm>Prozesse</indexterm></indexterm>
+                <indexterm>Bloc<indexterm>Prozesse</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>La MISE À JOUR HIER FÜR Démo-ha Blöcke schützen l'und de Dienstleistungen
+            Service-Ausfalls d'oder de Bediener- d'eines de Daten im Falle. Eine Liste von Prozessen d'ist de folgende de Das
+            verbunden le MIT Blöcken. <ul id="ul_pxl_mgk_chb">
+                <li><b>Datenbankreproduktion</b>- Le synchrone Reproduktion de Bauen Sie zwischen zusammen
+                    L'und Sekundäraufstellungsort de Primäraufstellungsort (aktiv) (passif) sicherzustellen MME. SQL de DES de Bediener
+                    eines Datenbanknullpunktausfalls de l'übereinstimmung im Falle. </li>
+                <li><b>Stillstandszeit</b>- Hängt von der Zahl Wiederanlauf Versuchen ab de Stillstandszeit de der de Menge de matrice
+                    la matrice Primärbedienerdienstleistungen, von de für de baut de Verwalter de der de Zahl de matrice zusammen
+                    les failovers ließen le pro failback Konfiguration de matrice d'und de Zahl von Stunden.</li>
+                <li><b>Failback</b>- Ist normal de zurückgebracht de zum de Primärbediener de der de Nachdem, matrice Arbeitsbelastung de kann
+                    seien zurück von den que le repaire Primärbedienern de zu de Sekundärbedienern ausgefallen Sie. Das Primär
+                    Wieder aktive de Bediener de der de wird de Bediener.<p>Zum Primär de Wiederherstellung von Betrieben
+                        Einem Sekundärsystem d'auf d'Unfallwiederaufnahme d'oder de failover d'einer de nach d'Aufstellungsort d'oder de système
+                        oder Aufstellungsort. </p></li>
+                <li><b>Failover</b>- L'ausfällt de Primärbediener de der d'einer de Wenn, von d'Arbeitsbelastung de matrice verlassen
+                    Bloc de Sekundärbediener im de repaire d'auf de sich d'automatisch de verschiebt de Bediener. Dieses
+                    genannt de failover de wird de Prozeß d'automatischer. Sicher de Verwendbarkeit d'ununterbrochene de stellt de Failover
+                    und von den Daten de von den Anwendungen. Durchführt de failover de Wenn, der Sekundärbediener de wird
+                    der Bediener aktive. <p>L'oder de Störung d'eine de système de Wenn a (Primär) einen l'ermittelt d'Ausfall, es
+                        système de doppeltes de l'auf a (Sekundär) de Steuerung d'automatisch de bringt. Dieses
+                        le zu d'ha Blöcke d'auf de trifft de nach, denen l'ist de failover von einem Bediener
+                    andere.</p></li>
+                <li><b>Kontrollierter Leistungsrückgang</b>- Le zu de zum de Gewährende Blockprozeßabhängigkeiten funktionieren
+                    l'einem d'auf de würdevoll verminderten Primäraufstellungsort.</li>
+                <li><b>Redundanz</b>- Les ha Bloquent-Gebrauchredundanz, der de zum einzelnen le zu de DES Ausfalls de Punkte verhindern
+                    (SPOF), service d'ein d'oder de Bediener de verlassener d'ein de wie. Ha Blöcke schließen l'ein de MIT de Primär (l'aktiv)
+                    Das de Sekundär d'und de Datenbanken d'oder de Wirt Dienstleistungen de matrice de Bediener Bediener (passif)
+                    bewirten le der Datenbanken d'und de Dienstleistungen de der de Kopien de wiederholte de Sie. </li>
+                <li><b>Reproduktion</b>- La matrice Sekundärbediener haben l'und de Konfiguration de gleiche de matrice
+                    Les als de logiciel meurent Primärbediener, von de Duplikat d'ein de sie de sind (überflüssige Kopie)
+                    hauptsächlich. Daten werden (kopiert) le wiederholt de Sekundär de zum de von den Primärbedienern
+                    Bediener. </li>
+            </ul></p>
+        <p>Les ha de für de l'und DR stützen <ph keyref="enterprise"/>, bauen la matrice de Sie vorgewählten Bestandteile innen zusammen
+            Für ha d'Ihr Rechenzentrum.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Blockbestandteile</b>- Les eines de Bediener d'ist de bloc d'Ein que le vorbei de matrice de Satzes (Nullpunkte) angeschlossen werden
+                logiciel d'und de Kabel de körperliche. Dans le der diese Bediener de Blöcke de sind d'ha Klima d'einem
+                im gleichen körperlichen le sein de Rechenzentrum dürfen. <p>
+                    <note>Im der Blöcke de Kontext, zwar dans le repaire Bezeichnungen Bediener, im jeder de l'und im Nullpunkt de Wirt
+                        haben le spezifische Bedeutung, sie de Sie werden le häufig de verwendet austauschbar.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Blockgruppe (Rolle)</b>- Failover de matrice de Dienstleistungen de gesammelte de Gruppe
+                        zusammen l'und seien l'abhängig de Sie von einander. </li>
+                    <li><b>Wirt</b>- Matrice Blockmaschine, bewirtet de Dienstleistungen de matrice de matrice.</li>
+                    <li><b>Nullpunkt</b>- Eine Maschine de für de Bezeichnung de generische d'Eine dans le bloc d'einem.</li>
+                    <li><b>Primärnullpunkt</b>- Bloc aktive de Der Nullpunkt im. OE de Maschine de matrice
+                        Produktion Tätigkeiten Durchlauf. </li>
+                    <li><b>Sekundärnullpunkt</b>- Matrice Maschine, das Ziel d'als de matrice dans le wird de gekennzeichnet
+                        Failover d'eines de chute. Von de Duplikat de passives d'ein d'ist de Der Sekundärnullpunkt
+                        Primärnullpunkt. </li>
+                    <li><b>Bediener</b>- Dem Bedienerfunktionieren de MIT d'angebracht de bloc de Maschine im de matrice
+                        Système.</li>
+                </ul></li>
+            <li><b>Hilfsmittelversion Steuerung (oder SVN de VCS)</b></li>
+        </ul>
+        <p>Ha Blocktechnologien schützen le spezifische Arten Ausfälle de drei de gegen :</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Service-Ausfälle d'und d'Anwendung</b>- Wesentlich d'und de Beeinflussen von Anwendersoftware
+                Dienstleistungen.</li>
+            <li><b>Aufstellungsortausfälle dans le multisite Organisationen de repaire</b>- durch Naturkatastrophen, Energie de verursacht
+                Oder Konnektivitätstörungen de Störungen.</li>
+            <li><b>Und Kleinteilausfälle de système</b>- Beeinflussend d'unités centrales de traitement de wie de Hardwareeinheiten,
+                Antriebe, Gedächtnis, und Spg.Versorgungsteile de Netzadapter.</li>
+        </ul>
+        <p>Diese Fähigkeit, Ausfall anzufassen le zwei Anforderungen de Blöcke de läßt entsprechen, meurent le sind de typisch
+            dans le repaire meisten Rechenzentrumklimas :</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Hohe Verwendbarkeit</b>- la matrice Fähigkeit, zu de service d'einem de zu de MIT Zugang d'Endbenutzer versehen
+                le für einen hohen l'ungeplante Störungen de verringert d'und de Zeit de der de Prozentsatz.</li>
+            <li><b>Hohe Zuverlässigkeit</b>- matrice Fähigkeit, zu de DES Systemfehlers de Frequenz de matrice verringern.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>

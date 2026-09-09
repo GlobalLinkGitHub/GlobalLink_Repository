@@ -1,0 +1,73 @@
+Page_1:
+  '3':
+    Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
+Expression à terme : 'Artic Surfing 09-Sep-démo'
+      Heading: 'Aperçu'
+      Technology: 'GlobalLink'
+        '0': 'Consulter la direction'
+        '1': 'DHR'
+      Allergic_to_Latex: 'Allergien au latex'
+      Wheelchair_dependent: 'Dépendance à un fauteuil roulant'
+      Donor_Needs_(8): 'Besoins des donneurs (8)'
+      21FNDC4113: '21FNDC4113'
+      XXX-XX-1212: "XXX-XX-1212"
+      A00503741: "A00503741"
+      PBN: "PBN"
+      IDN_/_SSN:
+      PDN: "PDN"
+      David_Lee_Smith: "David Lee Smith"
+      Tertiary:
+        '0': "Vérification du statut (4)"
+      Group_451:
+        '8': "8"
+        More_Info: "Plus d'infos, c'est un <tag>"
+        2nd_Last_Donation: "2ème dernier don"
+        Gender: "Sexe"
+        Last_Donation: "Dernier don"
+        DOB: "Date de naissance"
+        'No':
+          _of_Donations: "Nombre de dons"
+        11/01/2020: "11/01/2020"
+        Male: "Homme"
+        12/04/2020: "12/04/2020"
+        03/02/1988: "03/02/1988"
+      Group_520:
+        Approved: "Approuvé"
+        Donor_Status: "Statut du donneur"
+        Physical: "Physique"
+        Athletic_Pulse: "Pouls athlétique"
+        CDCS: "CDCS"
+        EDQ: "EDQ"
+        Required: "Requis"
+        N/A: "S.O."
+        Okay: "OK"
+      Group_452:
+        Test_Status: "Statut du test"
+        SPE_Drawn: "SPE extraite"
+        SPE_Reviewed: "SPE examinée"
+        SPE_Tested: "SPE testée"
+        10/30/2020: "30/10/2020"
+        11/10/2020: "10/11/2020"
+        11/07/2020: "07/11/2020"
+      Group_453:
+        Deferral_Information: "Informations sur le report"
+        Deferred: "Reporté"
+        11/03/2021: "03/11/2021"
+        Tertiary: "Voir plus (2)"
+      Primary: "Continuer"
+      Reason: "Motif"
+      24522_-_Unacceptable_injection_site: "24522 - Site d'injection inacceptable"
+      Version_10:
+        '0':
+          '0':
+            1_|_Last_Updated_12/12/2021: "Version 10.0.0.1 | Dernière mise à jour : 12/12/2021"
+      JD: "JD"
+      Frame_777:
+        Home:
+          '0': "APPTS"
+          '1': "SURVEILLER LES DONNEURS"
+          '2': "PROCESSER LES DONNEURS"
+      Frame_794:
+        Home:
+          '0': "AIDE"
+          '1': "Profil"

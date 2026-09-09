@@ -1,14 +1,14 @@
 Page_1:
   '3':
     Donor_Screening_Verify_Donor_Pop-up_Donor_Info:
-Expression à terme : 'Artic Surfing 09-Sep-démo'
+Expression technique : 'Artic Surfing 09-Sep-demo2'
       Heading: 'Aperçu'
       Technology: 'GlobalLink'
         '0': 'Consulter la direction'
         '1': 'DHR'
       Allergic_to_Latex: 'Allergien au latex'
       Wheelchair_dependent: 'Dépendance à un fauteuil roulant'
-      Donor_Needs_(8): 'Besoins des donneurs (8)'
+      Donor_Needs_(8): 'Besoins du donneur (8)'
       21FNDC4113: '21FNDC4113'
       XXX-XX-1212: "XXX-XX-1212"
       A00503741: "A00503741"

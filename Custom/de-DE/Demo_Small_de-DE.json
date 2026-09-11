@@ -1,7 +1,7 @@
 {
   "apps/app-admin-accounts/src/login/LoginInvalidErrorMessage.tsx": [
     {
-      "defaultMessage": "Ihre Anmeldedaten waren falsch, bitte versuchen Sie es erneut - AKTUALISIERUNG 11. September 2026",
+      "defaultMessage": "Ihre Anmeldedaten waren falsch, bitte versuchen Sie es erneut - AKTUALISIERUNG HEUTE 11. September",
       "id": "login.message.login_error"
     }
   ],
@@ -25,7 +25,7 @@
       "id": "login.reset_confirmation_subtitle"
     },
     {
-      "defaultMessage": "Warten Sie 10 Minuten, bis die E-Mail eintrifft. Wenn Sie sie immer noch nicht sehen, überprüfen Sie Ihren Spam-Ordner. Überprüfen Sie noch einmal, ob Sie die richtige E-Mail-Adresse eingegeben haben, die Sie in der Kontoeinrichtungs-E-Mail gefunden haben.",
+      "defaultMessage": "Warten Sie 10 Minuten, bis die E-Mail eintrifft. Wenn Sie sie immer noch nicht sehen, überprüfen Sie Ihren Spam-Ordner. Überprüfen Sie nochmals, ob Sie die richtige E-Mail-Adresse eingegeben haben, die Sie in der Kontoerstellungs-E-Mail finden.",
       "id": "login.reset_confirmation_tip"
     },
     {
@@ -35,7 +35,7 @@
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordForm.tsx": [
     {
-      "defaultMessage": "1stDibs-Konto-E-Mail",
+      "defaultMessage": "1stDibs Konto-E-Mail",
       "id": "login.reset_email_email"
     },
     {
@@ -49,7 +49,7 @@
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerLoginCookieDisclaimer.tsx": [
     {
-      "defaultMessage": "1stDibs verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten. Wenn Sie weiter surfen, stimmen Sie unserer {cookiePolicy}.",
+      "defaultMessage": "1stDibs verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten. Wenn Sie weiter surfen, stimmen Sie unseren {cookiePolicy}.",
       "id": "cookieDisclaimer.notice"
     },
     {
@@ -107,7 +107,7 @@
       "id": "login.invalid_email"
     },
     {
-      "defaultMessage": "Das Passwort stimmt nicht überein. Bitte bearbeiten Sie und versuchen Sie erneut, die Übermittlung durchzuführen.",
+      "defaultMessage": "Das Passwort stimmt nicht überein. Bitte bearbeiten Sie und versuchen Sie erneut, die Übermittlung zu starten.",
       "id": "login.reset_password_match_error"
     },
     {

@@ -27,10 +27,10 @@ Expression technique : 'Artic Surfing 09-Sep-demo2'
         DOB: "Date de naissance"
         'No':
           _of_Donations: "Nombre de dons"
-        11/01/2020: "11/01/2020"
+        01/11/2020: "01/11/2020"
         Male: "Homme"
-        12/04/2020: "12/04/2020"
-        03/02/1988: "03/02/1988"
+        04/12/2020: "04/12/2020"
+        02/03/1988: "02/03/1988"
       Group_520:
         Approved: "Approuvé"
         Donor_Status: "Statut du donneur"
@@ -46,17 +46,17 @@ Expression technique : 'Artic Surfing 09-Sep-demo2'
         SPE_Drawn: "SPE extraite"
         SPE_Reviewed: "SPE examinée"
         SPE_Tested: "SPE testée"
-        10/30/2020: "30/10/2020"
-        11/10/2020: "10/11/2020"
-        11/07/2020: "07/11/2020"
+        30/10/2020: "30/10/2020"
+        10/11/2020: "10/11/2020"
+        07/11/2020: "07/11/2020"
       Group_453:
         Deferral_Information: "Informations sur le report"
         Deferred: "Reporté"
-        11/03/2021: "03/11/2021"
+        03/11/2021: "03/11/2021"
         Tertiary: "Voir plus (2)"
       Primary: "Continuer"
       Reason: "Motif"
-      24522_-_Unacceptable_injection_site: "24522 - Site d'injection inacceptable"
+      24522_-_Unacceptable_injection_site: "24522 - Injection au mauvais endroit"
       Version_10:
         '0':
           '0':

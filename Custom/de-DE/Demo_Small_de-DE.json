@@ -1,0 +1,170 @@
+{
+  "apps/app-admin-accounts/src/login/LoginInvalidErrorMessage.tsx": [
+    {
+      "defaultMessage": "Ihre Anmeldedaten waren falsch, bitte versuchen Sie es erneut - AKTUALISIERUNG 11. September 2026",
+      "id": "login.message.login_error"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/LoginServerErrorMessage.tsx": [
+    {
+      "defaultMessage": "Bei der Kommunikation mit diesem Dienst ist ein Fehler aufgetreten, bitte wenden Sie sich an den Support.",
+      "id": "login.message.server_error"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordConfirmation.tsx": [
+    {
+      "defaultMessage": "Bitte überprüfen Sie Ihren Posteingang auf eine E-Mail von uns. Um fortfahren zu können, müssen Sie die Anweisungen in der E-Mail befolgen.",
+      "id": "login.reset_confirmation_copy"
+    },
+    {
+      "defaultMessage": "Überprüfen Sie Ihre E-Mail",
+      "id": "login.reset_confirmation_heading"
+    },
+    {
+      "defaultMessage": "Schritt 2 von 3",
+      "id": "login.reset_confirmation_subtitle"
+    },
+    {
+      "defaultMessage": "Warten Sie 10 Minuten, bis die E-Mail eintrifft. Wenn Sie sie immer noch nicht sehen, überprüfen Sie Ihren Spam-Ordner. Überprüfen Sie noch einmal, ob Sie die richtige E-Mail-Adresse eingegeben haben, die Sie in der Kontoeinrichtungs-E-Mail gefunden haben.",
+      "id": "login.reset_confirmation_tip"
+    },
+    {
+      "defaultMessage": "Keine E-Mail erhalten?",
+      "id": "login.reset_confirmation_tip_heading"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordForm.tsx": [
+    {
+      "defaultMessage": "1stDibs-Konto-E-Mail",
+      "id": "login.reset_email_email"
+    },
+    {
+      "defaultMessage": "NEUES PASSWORT ERSTELLEN",
+      "id": "login.reset_email_heading"
+    },
+    {
+      "defaultMessage": "Schritt 1 von 3",
+      "id": "login.reset_email_subtitle"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerLoginCookieDisclaimer.tsx": [
+    {
+      "defaultMessage": "1stDibs verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten. Wenn Sie weiter surfen, stimmen Sie unserer {cookiePolicy}.",
+      "id": "cookieDisclaimer.notice"
+    },
+    {
+      "defaultMessage": "Cookie-Richtlinie",
+      "id": "cookieDisclaimerLinkedText"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerLoginForm.tsx": [
+    {
+      "defaultMessage": "Zugang zum Verkäuferkonto",
+      "id": "login.heading"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerLoginPage.tsx": [
+    {
+      "defaultMessage": "Sie wurden erfolgreich abgemeldet.",
+      "id": "dealerLogin.message.logout_success"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerResetPasswordForm.tsx": [
+    {
+      "defaultMessage": "Ihr Passwort wurde erfolgreich zurückgesetzt.",
+      "id": "login.message.pw_reset_success"
+    },
+    {
+      "defaultMessage": "NEUES PASSWORT ERSTELLEN",
+      "id": "login.reset_password_heading"
+    },
+    {
+      "defaultMessage": "Neues Passwort",
+      "id": "login.reset_password_password"
+    },
+    {
+      "defaultMessage": "Geben Sie das neue Passwort erneut ein",
+      "id": "login.reset_password_password_confirmation"
+    },
+    {
+      "defaultMessage": "Schritt 3 von 3",
+      "id": "login.reset_password_subtitle"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerResetPasswordInvalidTokenErrorMessage.tsx": [
+    {
+      "defaultMessage": "Dieser Link ist nicht mehr gültig. Bitte verwenden Sie den letzten Link zum Zurücksetzen des Passworts, den Sie innerhalb der letzten 24 Stunden erhalten haben.",
+      "id": "login.message.reset_expired"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/helpers/loginValidation.tsx": [
+    {
+      "defaultMessage": "Dieses Feld ist ein Pflichtfeld",
+      "id": "login.field_required"
+    },
+    {
+      "defaultMessage": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "id": "login.invalid_email"
+    },
+    {
+      "defaultMessage": "Das Passwort stimmt nicht überein. Bitte bearbeiten Sie und versuchen Sie erneut, die Übermittlung durchzuführen.",
+      "id": "login.reset_password_match_error"
+    },
+    {
+      "defaultMessage": "Passwörter müssen mindestens 8 Zeichen lang sein und mindestens einen Großbuchstaben und eine Zahl enthalten.",
+      "id": "login.reset_password_strength_error"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginEmailInput.tsx": [
+    {
+      "defaultMessage": "E-Mail",
+      "id": "login.email"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginPasswordInput.tsx": [
+    {
+      "defaultMessage": "Passwort",
+      "id": "login.password"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginResetPasswordLink.tsx": [
+    {
+      "defaultMessage": "Haben Sie Ihr Passwort vergessen?",
+      "id": "login.forgot_password"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginSubmit.tsx": [
+    {
+      "defaultMessage": "Senden",
+      "id": "login.submit"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginVerticalSelect.tsx": [
+    {
+      "defaultMessage": "Wenn dies Ihre erste Anmeldung ist und Sie sich nicht sicher sind, welche Verkaufsart Sie haben, finden Sie diese Informationen in Ihrer Anmelde-E-Mail.",
+      "id": "login.reset_email_tooltip"
+    },
+    {
+      "defaultMessage": "Verkaufsart",
+      "id": "login.reset_email_vertical_selection"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/internal/InternalLoginPage.tsx": [
+    {
+      "defaultMessage": "Sie wurden erfolgreich abgemeldet.",
+      "id": "internalLogin.message.logout_success"
+    }
+  ],
+  "apps/app-admin-commerce/src/invoice/components/partials/AdminInvoiceUserAgreement.jsx": [
+    {
+      "defaultMessage": "Haftungsausschluss",
+      "id": "invoice.AdminInvoiceBuyerProtection.disclaimer"
+    }
+  ],
+  "packages/web-mc/src/utils/dates.ts": [
+    {
+      "defaultMessage": "Heute, {date}",
+      "id": "wm.dates.todayDate"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "apps/app-admin-accounts/src/login/LoginInvalidErrorMessage.tsx": [
+    {
+      "defaultMessage": "Your login credentials were incorrect, please try again - UPDATE 11292023",
+      "id": "login.message.login_error"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/LoginServerErrorMessage.tsx": [
+    {
+      "defaultMessage": "There was an error communicating with this service, please contact support.",
+      "id": "login.message.server_error"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordConfirmation.tsx": [
+    {
+      "defaultMessage": "Please check your inbox for an email from us. You'll need to follow the instructions in the email in order to continue.",
+      "id": "login.reset_confirmation_copy"
+    },
+    {
+      "defaultMessage": "Check Your Email",
+      "id": "login.reset_confirmation_heading"
+    },
+    {
+      "defaultMessage": "Step 2 of 3",
+      "id": "login.reset_confirmation_subtitle"
+    },
+    {
+      "defaultMessage": "Allow 10 minutes for the email to arrive. If you still don't see it, check your spam folder. Double check that you’ve entered the correct email address which can be found in the account set up email you received.",
+      "id": "login.reset_confirmation_tip"
+    },
+    {
+      "defaultMessage": "Didn't get an email?",
+      "id": "login.reset_confirmation_tip_heading"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordForm.tsx": [
+    {
+      "defaultMessage": "1stDibs Account Email",
+      "id": "login.reset_email_email"
+    },
+    {
+      "defaultMessage": "CREATE NEW PASSWORD",
+      "id": "login.reset_email_heading"
+    },
+    {
+      "defaultMessage": "Step 1 of 3",
+      "id": "login.reset_email_subtitle"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerLoginCookieDisclaimer.tsx": [
+    {
+      "defaultMessage": "1stDibs uses cookies to ensure you get the best experience on our website. By continuing to browse, you agree to our {cookiePolicy}.",
+      "id": "cookieDisclaimer.notice"
+    },
+    {
+      "defaultMessage": "cookie policy",
+      "id": "cookieDisclaimerLinkedText"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerLoginForm.tsx": [
+    {
+      "defaultMessage": "Seller Account Login",
+      "id": "login.heading"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerLoginPage.tsx": [
+    {
+      "defaultMessage": "You have been successfully logged out.",
+      "id": "dealerLogin.message.logout_success"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerResetPasswordForm.tsx": [
+    {
+      "defaultMessage": "Your password has been successfully reset.",
+      "id": "login.message.pw_reset_success"
+    },
+    {
+      "defaultMessage": "CREATE NEW PASSWORD",
+      "id": "login.reset_password_heading"
+    },
+    {
+      "defaultMessage": "New Password",
+      "id": "login.reset_password_password"
+    },
+    {
+      "defaultMessage": "Re-enter new password",
+      "id": "login.reset_password_password_confirmation"
+    },
+    {
+      "defaultMessage": "Step 3 of 3",
+      "id": "login.reset_password_subtitle"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/dealer/DealerResetPasswordInvalidTokenErrorMessage.tsx": [
+    {
+      "defaultMessage": "This link is no longer valid. Please use the most recent reset password link you have received within 24 hours.",
+      "id": "login.message.reset_expired"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/helpers/loginValidation.tsx": [
+    {
+      "defaultMessage": "This field is required",
+      "id": "login.field_required"
+    },
+    {
+      "defaultMessage": "Please enter a valid email address.",
+      "id": "login.invalid_email"
+    },
+    {
+      "defaultMessage": "The password does not match. Please edit and try submitting again.",
+      "id": "login.reset_password_match_error"
+    },
+    {
+      "defaultMessage": "Passwords must be at least 8 characters long and contain at least one capital letter and one number",
+      "id": "login.reset_password_strength_error"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginEmailInput.tsx": [
+    {
+      "defaultMessage": "Email",
+      "id": "login.email"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginPasswordInput.tsx": [
+    {
+      "defaultMessage": "Password",
+      "id": "login.password"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginResetPasswordLink.tsx": [
+    {
+      "defaultMessage": "Forgot your password?",
+      "id": "login.forgot_password"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginSubmit.tsx": [
+    {
+      "defaultMessage": "Submit",
+      "id": "login.submit"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/inputs/LoginVerticalSelect.tsx": [
+    {
+      "defaultMessage": "If this is your first time logging in and you're unsure of your selling category, you can find this information in your registration email.",
+      "id": "login.reset_email_tooltip"
+    },
+    {
+      "defaultMessage": "Selling Category",
+      "id": "login.reset_email_vertical_selection"
+    }
+  ],
+  "apps/app-admin-accounts/src/login/internal/InternalLoginPage.tsx": [
+    {
+      "defaultMessage": "You have been successfully logged out.",
+      "id": "internalLogin.message.logout_success"
+    }
+  ],
+  "apps/app-admin-commerce/src/invoice/components/partials/AdminInvoiceUserAgreement.jsx": [
+    {
+      "defaultMessage": "Disclaimer",
+      "id": "invoice.AdminInvoiceBuyerProtection.disclaimer"
+    }
+  ],
+  "packages/web-mc/src/utils/dates.ts": [
+    {
+      "defaultMessage": "Today, {date}",
+      "id": "wm.dates.todayDate"
+    }
+  ]
+}

@@ -1,23 +1,23 @@
 {
   "apps/app-admin-accounts/src/login/LoginInvalidErrorMessage.tsx": [
     {
-      "defaultMessage": "Ihre Anmeldedaten waren falsch, bitte versuchen Sie es erneut - UPDATE DEMO",
+      "defaultMessage": "Ihre Anmeldedaten waren falsch. Bitte versuchen Sie es erneut – AKTUALISIEREN SIE DIE WHOOP 05Oct2026",
       "id": "login.message.login_error"
     }
   ],
   "apps/app-admin-accounts/src/login/LoginServerErrorMessage.tsx": [
     {
-      "defaultMessage": "Beim Kontakt mit diesem Dienst ist ein Fehler aufgetreten, bitte wenden Sie sich an den Support.",
+      "defaultMessage": "Bei der Kommunikation mit diesem Service ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Support.",
       "id": "login.message.server_error"
     }
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordConfirmation.tsx": [
     {
-      "defaultMessage": "Bitte überprüfen Sie Ihren Posteingang auf eine E-Mail von uns. Um fortfahren zu können, müssen Sie die Anweisungen in der E-Mail befolgen.",
+      "defaultMessage": "Bitte überprüfen Sie Ihren Posteingang auf eine E-Mail von uns. Sie müssen die Anweisungen in der E-Mail befolgen, um fortzufahren.",
       "id": "login.reset_confirmation_copy"
     },
     {
-      "defaultMessage": "Überprüfen Sie Ihre E-Mail",
+      "defaultMessage": "Überprüfen Sie Ihre E-Mail-Adresse",
       "id": "login.reset_confirmation_heading"
     },
     {
@@ -25,17 +25,17 @@
       "id": "login.reset_confirmation_subtitle"
     },
     {
-      "defaultMessage": "Die E-Mail benötigt etwa 10 Minuten, bis sie eintrifft. Wenn Sie sie immer noch nicht erhalten haben, überprüfen Sie Ihren Spam-Ordner. Überprüfen Sie noch einmal, ob Sie die richtige E-Mail-Adresse eingegeben haben. Diese finden Sie in der E-Mail, die Sie bei der Kontoeinrichtung erhalten haben.",
+      "defaultMessage": "Warten Sie 10 Minuten, bis die E-Mail eintrifft. Wenn Sie es immer noch nicht sehen, überprüfen Sie Ihren Spam-Ordner. Überprüfen Sie nochmals, ob Sie die richtige E-Mail-Adresse eingegeben haben, die Sie in der E-Mail zur Kontoeinrichtung finden.",
       "id": "login.reset_confirmation_tip"
     },
     {
-      "defaultMessage": "Keine E-Mail erhalten?",
+      "defaultMessage": "Sie haben keine E-Mail erhalten?",
       "id": "login.reset_confirmation_tip_heading"
     }
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerForgotPasswordForm.tsx": [
     {
-      "defaultMessage": "1stDibs-Konto-E-Mail",
+      "defaultMessage": "E-Mail-Adresse des 1stDibs-Kontos",
       "id": "login.reset_email_email"
     },
     {
@@ -49,7 +49,7 @@
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerLoginCookieDisclaimer.tsx": [
     {
-      "defaultMessage": "1stDibs verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten. Wenn Sie weiter surfen, stimmen Sie unserer {cookiePolicy}.",
+      "defaultMessage": "1stDibs verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten. Indem Sie weiter browsen, stimmen Sie unserem zu{cookiePolicy}.",
       "id": "cookieDisclaimer.notice"
     },
     {
@@ -59,7 +59,7 @@
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerLoginForm.tsx": [
     {
-      "defaultMessage": "Zugang zum Verkäuferkonto",
+      "defaultMessage": "Kontoanmeldung des Verkäufers",
       "id": "login.heading"
     }
   ],
@@ -83,7 +83,7 @@
       "id": "login.reset_password_password"
     },
     {
-      "defaultMessage": "Geben Sie das neue Passwort erneut ein",
+      "defaultMessage": "Neues Passwort erneut eingeben",
       "id": "login.reset_password_password_confirmation"
     },
     {
@@ -93,7 +93,7 @@
   ],
   "apps/app-admin-accounts/src/login/dealer/DealerResetPasswordInvalidTokenErrorMessage.tsx": [
     {
-      "defaultMessage": "Dieser Link ist nicht mehr gültig. Bitte verwenden Sie den letzten Link zum Zurücksetzen des Passworts, den Sie innerhalb der letzten 24 Stunden erhalten haben.",
+      "defaultMessage": "Dieser Link ist nicht mehr gültig. Bitte verwenden Sie den letzten Link zum Zurücksetzen des Passworts, den Sie innerhalb von 24 Stunden erhalten haben.",
       "id": "login.message.reset_expired"
     }
   ],
@@ -107,11 +107,11 @@
       "id": "login.invalid_email"
     },
     {
-      "defaultMessage": "Das Passwort stimmt nicht überein. Bitte bearbeiten Sie und versuchen Sie erneut, die Übermittlung.",
+      "defaultMessage": "Das Passwort stimmt nicht überein. Bitte bearbeiten und erneut absenden.",
       "id": "login.reset_password_match_error"
     },
     {
-      "defaultMessage": "Passwörter müssen mindestens 8 Zeichen lang sein und mindestens einen Großbuchstaben und eine Zahl enthalten.",
+      "defaultMessage": "Passwörter müssen mindestens 8 Zeichen lang sein und mindestens einen Großbuchstaben und eine Zahl enthalten",
       "id": "login.reset_password_strength_error"
     }
   ],
@@ -135,17 +135,17 @@
   ],
   "apps/app-admin-accounts/src/login/inputs/LoginSubmit.tsx": [
     {
-      "defaultMessage": "Senden",
+      "defaultMessage": "Übermitteln",
       "id": "login.submit"
     }
   ],
   "apps/app-admin-accounts/src/login/inputs/LoginVerticalSelect.tsx": [
     {
-      "defaultMessage": "Wenn dies Ihre erste Anmeldung ist und Sie sich nicht sicher sind, welche Verkaufsart Sie haben, finden Sie diese Informationen in Ihrer Anmelde-E-Mail.",
+      "defaultMessage": "Wenn Sie sich zum ersten Mal anmelden und sich über Ihre Verkaufskategorie nicht sicher sind, finden Sie diese Informationen in Ihrer Registrierungs-E-Mail.",
       "id": "login.reset_email_tooltip"
     },
     {
-      "defaultMessage": "Verkaufsart",
+      "defaultMessage": "Verkaufskategorie",
       "id": "login.reset_email_vertical_selection"
     }
   ],
@@ -163,7 +163,7 @@
   ],
   "packages/web-mc/src/utils/dates.ts": [
     {
-      "defaultMessage": "Heute, {date}",
+      "defaultMessage": "Heute {date}",
       "id": "wm.dates.todayDate"
     }
   ]

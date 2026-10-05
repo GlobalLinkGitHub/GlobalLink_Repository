@@ -1,7 +1,7 @@
 {
   "apps/app-admin-accounts/src/login/LoginInvalidErrorMessage.tsx": [
     {
-      "defaultMessage": "Your login credentials were incorrect, please try again - UPDATE DEMO",
+      "defaultMessage": "Your login credentials were incorrect, please try again - UPDATE WHOOP 05Oct2026",
       "id": "login.message.login_error"
     }
   ],

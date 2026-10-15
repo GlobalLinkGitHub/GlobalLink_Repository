@@ -1,0 +1,40 @@
+GlobalLink Connect GitHub Connector Overview
+
+The GlobalLink Connect GitHub Connector is a web-based application that integrates GitHub with GlobalLink Connect, enabling users to create translation requests for content stored within a GitHub repository.
+
+When a translation request is initiated, the connector establishes a connection to the GitHub repository and clones both the source and target branches onto the GlobalLink Connect server. The source branch is used for export, while the target branch is used for the delivery of translated content. Each branch is maintained in a separate working directory.
+
+Workflow
+
+1. Creating and Updating Files
+   Users create or update source content in the GitHub repository.
+
+2. Fetching Repository Content
+   The GitHub Connector executes a Git pull operation to retrieve the latest files from the repository and stores them in the GlobalLink Connect working folder.
+
+3. Branch Management
+   Files are organized according to their corresponding branch structure. If a required branch is not already available on the server, it is automatically cloned.
+
+4. File Selection for Translation
+   Based on configured polling and filtering criteria, eligible files are identified and submitted to GlobalLink Connect for translation into the required target languages.
+
+5. Translation and Review
+   Content is translated and reviewed within GlobalLink TMS. Upon completion, translated files are delivered back to the working folder while preserving the original branch structure.
+
+6. Committing Translated Content
+   Delivered translations are added to the target branch, committed locally, and prepared for synchronization.
+
+7. Pushing Changes to GitHub
+   The connector pushes the committed translations back to the remote GitHub repository. Depending on the configured workflow, a pull request can also be created automatically for review and approval.
+
+8. Viewing Results
+   Updated translated content becomes available within the GitHub repository, where teams can review changes, merge pull requests, and continue the development lifecycle.
+
+Key Benefits
+
+• Automated synchronization between GitHub and GlobalLink Connect
+• Support for translating all repository-based content types
+• Preservation of branch structures throughout the localization process
+• Automated commits and repository updates
+• Optional pull request creation to support development workflows
+• Seamless integration of translation activities into existing GitHub processes

@@ -1,5 +1,7 @@
 GlobalLink Connect GitHub Connector Overview
 
+Edit made on Oct 15, 2026
+
 The GlobalLink Connect GitHub Connector is a web-based application that integrates GitHub with GlobalLink Connect, enabling users to create translation requests for content stored within a GitHub repository.
 
 When a translation request is initiated, the connector establishes a connection to the GitHub repository and clones both the source and target branches onto the GlobalLink Connect server. The source branch is used for export, while the target branch is used for the delivery of translated content. Each branch is maintained in a separate working directory.

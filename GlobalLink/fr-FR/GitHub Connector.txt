@@ -1,6 +1,8 @@
-Vue d'ensemble du connecteur GitHub de GlobalLink Connect
+Vue sur GlobalLink Connect GitHub Connector
 
-Le connecteur GitHub de GlobalLink Connect est une application web qui intègre GitHub à GlobalLink Connect, permettant aux utilisateurs de créer des demandes de traduction pour le contenu stocké dans un dépôt GitHub.
+Modification effectuée le 15 octobre 2026
+
+Le GlobalLink Connect GitHub Connector est une application web qui intègre GitHub à GlobalLink Connect, permettant aux utilisateurs de créer des demandes de traduction pour le contenu stocké dans un dépôt GitHub.
 
 Lorsqu'une demande de traduction est initiée, le connecteur établit une connexion avec le dépôt GitHub et clone les branches source et cible sur le serveur GlobalLink Connect. La branche source est utilisée pour l'exportation, tandis que la branche cible est utilisée pour la livraison du contenu traduit. Chaque branche est maintenue dans un répertoire de travail séparé.
 
@@ -10,31 +12,31 @@ FLUX DE TRAVAIL
    Les utilisateurs créent ou mettent à jour le contenu source dans le dépôt GitHub.
 
 2. Récupération du contenu du dépôt
-   Le connecteur GitHub exécute une opération Git pull pour récupérer les fichiers les plus récents du dépôt et les stocke dans le dossier de travail GlobalLink Connect.
+   Le connecteur GitHub exécute une opération Git pull pour récupérer les derniers fichiers du dépôt et les stocke dans le dossier de travail GlobalLink Connect.
 
-3. Gestion des branches
-   Les fichiers sont organisés selon la structure de branche correspondante. Si une branche requise n'est pas déjà disponible sur le serveur, elle est automatiquement clonée.
+3. Gestion de branches
+   Les fichiers sont organisés selon la structure de branches correspondante. Si une branche requise n'est pas déjà disponible sur le serveur, elle est automatiquement clonée.
 
-4. Sélection de fichiers pour la traduction
+4. Sélection de fichiers pour traduction
    Sur la base des critères de sondage et de filtrage configurés, les fichiers éligibles sont identifiés et soumis à GlobalLink Connect pour traduction dans les langues cibles requises.
 
 5. Traduction et révision
-   Le contenu est traduit et révisé au sein de GlobalLink TMS. Une fois terminé, les fichiers traduits sont renvoyés dans le dossier de travail tout en préservant la structure de branche originale.
+   Le contenu est traduit et révisé au sein de GlobalLink TMS. Une fois terminé, les fichiers traduits sont renvoyés dans le dossier de travail tout en préservant la structure de branches originale.
 
 6. Validation du contenu traduit
    Les traductions livrées sont ajoutées à la branche cible, validées localement et préparées pour la synchronisation.
 
-7. Envoi des modifications sur GitHub
-   Le connecteur renvoie les traductions validées au dépôt GitHub distant. Selon le flux de travail configuré, une demande de pull peut également être créée automatiquement pour examen et approbation.
+7. Pousser les modifications sur GitHub
+   Le connecteur pousse les traductions validées vers le dépôt GitHub distant. Selon le flux de travail configuré, une demande de pull peut également être créée automatiquement pour examen et approbation.
 
-8. Affichage des résultats
+8. Afficher les résultats
    Le contenu traduit mis à jour devient disponible au sein du dépôt GitHub, où les équipes peuvent examiner les modifications, fusionner les demandes de pull et poursuivre le cycle de vie du développement.
 
 Principaux avantages
 
 • Synchronisation automatisée entre GitHub et GlobalLink Connect
-• Support pour la traduction de tous les types de contenu basés sur des dépôts
+• Prise en charge de la traduction de tous les types de contenu basés sur des dépôts
 • Préservation des structures de branches tout au long du processus de localisation
-• Validations et mises à jour de dépôt automatisées
-• Création optionnelle de demande de pull pour prendre en charge les flux de travail de développement
+• Déploiements et mises à jour de dépôts automatisés
+• Création facultative de demande de pull pour prendre en charge les flux de travail de développement
 • Intégration transparente des activités de traduction dans les processus GitHub existants

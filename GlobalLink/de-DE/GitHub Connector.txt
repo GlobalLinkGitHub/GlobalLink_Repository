@@ -1,0 +1,40 @@
+GlobalLink Connect GitHub Connector – Überblick
+
+Der GlobalLink Connect GitHub Connector ist eine webbasierte Anwendung, die GitHub mit GlobalLink Connect integriert und es den Nutzern ermöglicht, Übersetzungsanfragen für Inhalte zu erstellen, die in einem GitHub-Repository gespeichert sind.
+
+Wenn eine Übersetzungsanfrage initiiert wird, stellt der Connector eine Verbindung zum GitHub-Repository her und klonen sowohl die Quell- als auch die Ziel-Branches auf den GlobalLink Connect-Server. Der Quell-Branch wird für den Export verwendet, während der Ziel-Branch für die Bereitstellung übersetzter Inhalte genutzt wird. Jeder Branch wird in einem separaten Arbeitsverzeichnis verwaltet.
+
+Arbeitsablauf
+
+1. Erstellen und Aktualisieren von Dateien
+   Nutzer erstellen oder aktualisieren Quell-Inhalte im GitHub-Repository.
+
+2. Abrufen von Repository-Inhalten
+   Der GitHub Connector führt einen Git-Pull-Vorgang durch, um die neuesten Dateien aus dem Repository abzurufen und speichert sie im GlobalLink Connect Arbeitsordner.
+
+3. Abteilungsmanagement
+   Dateien werden entsprechend ihrer zugehörigen Abteilungsstruktur organisiert. Wenn eine erforderliche Abteilung auf dem Server noch nicht vorhanden ist, wird sie automatisch geklont.
+
+4. Dateiauswahl für die Übersetzung
+   Basierend auf konfigurierten Abfrage- und Filterkriterien werden geeignete Dateien identifiziert und zur Übersetzung in die erforderlichen Zielsprachen an GlobalLink Connect übermittelt.
+
+5. Übersetzung und Überprüfung
+   Inhalte werden innerhalb von GlobalLink TMS übersetzt und überprüft. Nach Abschluss werden die übersetzten Dateien unter Beibehaltung der ursprünglichen Verzweigungsstruktur wieder in den Arbeitsordner zurückgegeben.
+
+6. Übersetztes Material einchecken
+   Die bereitgestellten Übersetzungen werden zur Zieldateigruppe hinzugefügt, lokal eingecheckt und auf die Synchronisierung vorbereitet.
+
+7. Änderungen an GitHub pushen
+   Der Konnektor pusht die eingecheckten Übersetzungen zurück ins entfernte GitHub-Repository. Je nach konfiguriertem Workflow kann auch automatisch ein Pull-Request zur Überprüfung und Genehmigung erstellt werden.
+
+8. Ergebnisse anzeigen
+   Aktualisierter übersetzter Inhalt wird innerhalb des GitHub-Repositorys verfügbar, wo Teams Änderungen überprüfen, Pull-Anfragen zusammenführen und den Entwicklungslebenszyklus fortsetzen können.
+
+Hauptvorteile
+
+• Automatisierte Synchronisierung zwischen GitHub und GlobalLink Connect
+• Unterstützung für die Übersetzung aller Repository-basierten Inhaltstypen
+• Beibehaltung der Zweigstrukturen während des gesamten Lokalisierungsprozesses
+• Automatisierte Commits und Repository-Aktualisierungen
+• Optionale Erstellung von Pull-Anfragen zur Unterstützung von Entwicklungsworkflows
+• Nahtlose Integration von Übersetzungsaktivitäten in bestehende GitHub-Prozesse
